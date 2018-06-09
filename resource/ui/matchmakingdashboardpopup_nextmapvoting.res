@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/MatchMakingDashboardPopup_NextMapVoting.res"
+#base "../../base_hud/resource/ui/MatchMakingDashboardPopup_NextMapVoting.res"
 // Vote for next map at the end of round
 
 "Resource/UI/MatchMakingDashboardPopup_NextMapVoting.res"

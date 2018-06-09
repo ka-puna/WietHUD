@@ -1,4 +1,4 @@
-#base "../../../default_hudfiles/resource/ui/econ/TradingStartDialog.res"
+#base "../../../base_hud/resource/ui/econ/TradingStartDialog.res"
 
 "Resource/UI/TradingStartDialog.res"
 {

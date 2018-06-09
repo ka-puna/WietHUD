@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/StatSummary.res"
+#base "../../base_hud/resource/ui/StatSummary.res"
 // Stats page when switching map
 
 "Resource/UI/winpanel.res"

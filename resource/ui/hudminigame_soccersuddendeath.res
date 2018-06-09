@@ -1,5 +1,5 @@
 #base "hudminigame_base.res"
-#base "../../default_hudfiles/Resource/UI/hudminigame_soccersuddendeath.res"
+#base "../../base_hud/resource/ui/hudminigame_soccersuddendeath.res"
 
 "Resource/UI/HudMiniGame_SuddenDeath.res"
 {

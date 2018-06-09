@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/AnnotationsPanelCallout.res"
+#base "../../base_hud/resource/ui/AnnotationsPanelCallout.res"
 // Annotations callout
 
 "Resource/UI/AnnotationsPanelCallout.res"

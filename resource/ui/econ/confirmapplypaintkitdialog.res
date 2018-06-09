@@ -1,4 +1,4 @@
-#base "../../../default_hudfiles/Resource/UI/econ/ConfirmApplyPaintKitDialog.res"
+#base "../../../base_hud/resource/ui/econ/ConfirmApplyPaintKitDialog.res"
 
 "Resource/UI/ConfirmApplyPaintkitDialog.res"
 {

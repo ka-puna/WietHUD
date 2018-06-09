@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/MvMCriteria.res"
+#base "../../base_hud/resource/ui/MvMCriteria.res"
 
 "Resource/UI/MvMCriteria.res"
 {

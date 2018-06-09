@@ -1,5 +1,5 @@
 #base "ConfirmPanelFixes_base.res"
-#base "../../../default_hudfiles/Resource/UI/econ/ConfirmApplyStrangifierDialog.res"
+#base "../../../base_hud/resource/ui/econ/ConfirmApplyStrangifierDialog.res"
 // Apply Strangifier
 
 "Resource/UI/ConfirmApplyStrangifierDialog.res"

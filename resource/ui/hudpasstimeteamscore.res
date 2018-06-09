@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/hudpasstimeteamscore.res"
+#base "../../base_hud/resource/ui/hudpasstimeteamscore.res"
 
 "Resource/UI/HudPasstimeTeamScore.res"
 {

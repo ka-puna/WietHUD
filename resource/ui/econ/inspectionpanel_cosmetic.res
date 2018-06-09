@@ -1,4 +1,4 @@
-#base "../../../default_hudfiles/resource/ui/econ/InspectionPanel_Cosmetic.res"
+#base "../../../base_hud/resource/ui/econ/InspectionPanel_Cosmetic.res"
 // Inspect cosmetic in backpack
 
 "Resource/UI/econ/InspectionPanel_Cosmetic.res"

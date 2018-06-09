@@ -1,5 +1,5 @@
 #base "ConfirmPanelFixes_base.res"
-#base "../../../default_hudfiles/Resource/UI/econ/ConfirmSpellbookPageApplicationDialog.res"
+#base "../../../base_hud/resource/ui/econ/ConfirmSpellbookPageApplicationDialog.res"
 // Use Spellbook Page on Spellbook
 
 "Resource/UI/ConfirmSpellbookPageApplicationDialog.res"

@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/InviteNotification.res"
+#base "../../base_hud/resource/ui/InviteNotification.res"
 
 "Resource/UI/InviteNotification.res"
 {

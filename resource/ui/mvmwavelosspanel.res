@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/MvMWaveLossPanel.res"
+#base "../../base_hud/resource/ui/MvMWaveLossPanel.res"
 
 "Resource/UI/MvMWaveLossPanel.res"
 {

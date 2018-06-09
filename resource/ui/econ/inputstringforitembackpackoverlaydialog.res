@@ -1,4 +1,4 @@
-#base "../../../default_hudfiles/resource/ui/econ/InputStringForItemBackpackOverlayDialog.res"
+#base "../../../base_hud/resource/ui/econ/InputStringForItemBackpackOverlayDialog.res"
 // Shuffle Crate contents
 
 "Resource/UI/econ/InputStringForItemBackpackOverlayDialog.res"

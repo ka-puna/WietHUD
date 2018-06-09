@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/StampDonationAdd.res"
+#base "../../base_hud/resource/ui/StampDonationAdd.res"
 // Add Map Stamps to cart on checkout
 
 "Resource/UI/StampDonationAdd.res"

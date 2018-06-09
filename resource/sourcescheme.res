@@ -1,5 +1,5 @@
 #base "SourceSchemeBase.res"
-#base "../default_hudfiles/resource/SourceScheme.res"
+#base "../base_hud/resource/SourceScheme.res"
 
 Scheme
 {

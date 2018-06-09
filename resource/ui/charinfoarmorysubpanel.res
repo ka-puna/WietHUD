@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/CharInfoArmorySubPanel.res"
+#base "../../base_hud/resource/ui/CharInfoArmorySubPanel.res"
 // Backpack Item Catalog
 
 "Resource/UI/CharInfoArmorySubPanel.res"

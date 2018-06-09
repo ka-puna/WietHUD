@@ -1,5 +1,5 @@
 //#base "../../options/reloadscheme_button.res"
-#base "../../default_hudfiles/resource/ui/dynamicrecipepanel.res"
+#base "../../base_hud/resource/ui/dynamicrecipepanel.res"
 // Fabricators & Chemistry Sets
 
 "Resource/UI/DynamicRecipe.res" {

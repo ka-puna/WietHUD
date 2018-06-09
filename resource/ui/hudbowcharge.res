@@ -1,4 +1,4 @@
-//#base "../../default_hudfiles/resource/ui/hudbowcharge.res"
+//#base "../../base_hud/resource/ui/hudbowcharge.res"
 
 //"Resource/UI/HudBowCharge.res"
 //{	

@@ -1,4 +1,4 @@
-#base "../../../../../default_hudfiles/resource/ui/econ/store/v2/storepage.res"
+#base "../../../../../base_hud/resource/ui/econ/store/v2/storepage.res"
 // Shop - Items Tab
 
 "Resource/UI/StorePage.res"

@@ -7,7 +7,7 @@
 #base "../../../alternatives/backpack_buttons.res"
 
 // Backpack/Inventory
-#base "../../../default_hudfiles/resource/ui/econ/backpackpanel.res"
+#base "../../../base_hud/resource/ui/econ/backpackpanel.res"
 
 "Resource/UI/FullLoadoutPanel.res"
 {

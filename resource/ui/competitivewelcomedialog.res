@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/CompetitiveWelcomeDialog.res"
+#base "../../base_hud/resource/ui/CompetitiveWelcomeDialog.res"
 
 "Resource/UI/CompetitiveWelcomeDialog.res"
 {

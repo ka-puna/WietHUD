@@ -5,7 +5,7 @@
 #base "../../alternatives/loadout_buttons.res"
 
 // Class Loadout Screen
-#base "../../default_hudfiles/resource/ui/ClassLoadoutPanel.res"
+#base "../../base_hud/resource/ui/ClassLoadoutPanel.res"
 
 "Resource/UI/FullLoadoutPanel.res"
 {

@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/HudObjectivePlayerDestruction.res"
+#base "../../base_hud/resource/ui/HudObjectivePlayerDestruction.res"
 // Player Destruction
 
 "Resource/UI/HudObjectivePlayerDestruction.res"

@@ -1,6 +1,6 @@
 #base "../base_already_built.res"
 
-"Resource/UI/build_menu/PipBoy/base_already_built.res"
+"Resource/UI/build_menu/pipboy/base_already_built.res"
 {
 	"ItemNameLabel"
 	{

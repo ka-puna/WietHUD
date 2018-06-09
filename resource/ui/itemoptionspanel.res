@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/ItemOptionsPanel.res"
+#base "../../base_hud/resource/ui/ItemOptionsPanel.res"
 // Loadout Item Options
 
 "Resource/UI/ItemOptionsPanel.res"

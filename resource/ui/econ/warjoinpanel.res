@@ -1,4 +1,4 @@
-#base "../../../default_hudfiles/resource/ui/econ/WarJoinPanel.res"
+#base "../../../base_hud/resource/ui/econ/WarJoinPanel.res"
 
 "Resource/UI/WarJoinPanel.res"
 {

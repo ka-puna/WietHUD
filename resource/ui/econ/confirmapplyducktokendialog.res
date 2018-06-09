@@ -1,5 +1,5 @@
 #base "ConfirmPanelFixes_base.res"
-#base "../../../default_hudfiles/Resource/UI/econ/ConfirmApplyDuckTokenDialog.res"
+#base "../../../base_hud/resource/ui/econ/ConfirmApplyDuckTokenDialog.res"
 
 "Resource/UI/ConfirmApplyDuckTokenDialog.res"
 {

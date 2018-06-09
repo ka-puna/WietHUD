@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/tfadvancedoptionsdialog.res"
+#base "../../base_hud/resource/ui/tfadvancedoptionsdialog.res"
 // Main Menu Advanced Options Dialog
 
 "Resource\UI\TFAdvancedOptionsDialog.res"

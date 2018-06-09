@@ -1,6 +1,6 @@
 #base "base_active.res"
 
-"Resource/UI/destroy_menu/PipBoy/base_inactive.res"
+"Resource/UI/destroy_menu/pipboy/base_inactive.res"
 {
 	"DestroyIcon"	
 	{

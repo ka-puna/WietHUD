@@ -1,4 +1,4 @@
-#base "../../../../../default_hudfiles/resource/ui/econ/store/v2/storehome_base.res"
+#base "../../../../../base_hud/resource/ui/econ/store/v2/storehome_base.res"
 // Shop index
 
 "Resource/UI/StorePage_Base.res"

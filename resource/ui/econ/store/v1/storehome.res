@@ -1,4 +1,4 @@
-#base "../../../../../default_hudfiles/resource/ui/econ/store/v1/storehome.res"
+#base "../../../../../base_hud/resource/ui/econ/store/v1/storehome.res"
 // Something store related?
 
 "Resource/UI/StoreHome.res"

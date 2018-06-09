@@ -1,6 +1,6 @@
 #base "../HudMenuEurekaEffect.res"
 
-"Resource/UI/build_menu/PipBoy/HudMenuEurekaEffect.res"
+"Resource/UI/build_menu/pipboy/HudMenuEurekaEffect.res"
 {
 	"available_target_1"
 	{

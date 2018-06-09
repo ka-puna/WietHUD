@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/hudbosshealth.res"
+#base "../../base_hud/resource/ui/hudbosshealth.res"
 // Halloween Boss health bar
 
 "Resource/UI/HudBossHealth.res"

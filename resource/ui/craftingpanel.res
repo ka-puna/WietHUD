@@ -1,5 +1,5 @@
 //#base "../../options/reloadscheme_button.res"
-#base "../../default_hudfiles/Resource/UI/CraftingPanel.res"
+#base "../../base_hud/resource/ui/CraftingPanel.res"
 // Item Craft menu
 
 "Resource/UI/CraftingPanel.res"

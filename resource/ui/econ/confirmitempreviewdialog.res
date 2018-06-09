@@ -1,4 +1,4 @@
-#base "../../../default_hudfiles/Resource/UI/econ/ConfirmItemPreviewDialog.res"
+#base "../../../base_hud/resource/ui/econ/ConfirmItemPreviewDialog.res"
 
 "Resource/UI/ConfirmItemPreviewDialog.res"
 {

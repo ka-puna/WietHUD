@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/LeaderboardEntryRank.res"
+#base "../../base_hud/resource/ui/LeaderboardEntryRank.res"
 // Ranked Leaderboard in LobbyPanel
 
 "Resource/UI/LeaderboardEntryRank.res"

@@ -1,4 +1,4 @@
-#base "../../../../../default_hudfiles/resource/ui/econ/store/v2/storeviewcartpanel.res"
+#base "../../../../../base_hud/resource/ui/econ/store/v2/storeviewcartpanel.res"
 // Cart/Checkout
 
 "Resource/UI/StoreViewCartPanel.res"

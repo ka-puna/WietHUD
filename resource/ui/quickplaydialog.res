@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/quickplaydialog.res"
+#base "../../base_hud/resource/ui/quickplaydialog.res"
 
 "Resource/QuickplayDialog.res"
 {

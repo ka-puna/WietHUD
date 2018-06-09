@@ -1,6 +1,6 @@
 #base "../base_active_teleport_target.res"
 
-"Resource/UI/build_menu/PipBoy/base_active_teleport_target.res"
+"Resource/UI/build_menu/pipboy/base_active_teleport_target.res"
 {
 	"ItemNameLabel"
 	{

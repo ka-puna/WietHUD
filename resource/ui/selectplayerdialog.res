@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/SelectPlayerDialog.res"
+#base "../../base_hud/resource/ui/SelectPlayerDialog.res"
 
 "Resource/UI/SelectPlayerDialog.res"
 {

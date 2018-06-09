@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/hudupgradepanel.res"
+#base "../../base_hud/resource/ui/hudupgradepanel.res"
 // MvM Upgrade Station
 
 "Resource/UI/HudUpgradePanel.res"

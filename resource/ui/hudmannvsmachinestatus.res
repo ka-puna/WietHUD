@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/HudMannVsMachineStatus.res"
+#base "../../base_hud/resource/ui/HudMannVsMachineStatus.res"
 // Mann vs. Machine Objective/Money/Wave Completion/Disconnect message
 
 "Resource/UI/HudMannVsMachineStatus.res"

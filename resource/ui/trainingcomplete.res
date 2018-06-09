@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/trainingcomplete.res"
+#base "../../base_hud/resource/ui/trainingcomplete.res"
 
 "Resource/UI/TrainingComplete.res"
 {

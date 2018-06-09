@@ -1,5 +1,5 @@
 #base "ConfirmPanelFixes_base.res"
-#base "../../../default_hudfiles/Resource/UI/econ/confirmtransmogrifyapplicationdialog.res"
+#base "../../../base_hud/resource/ui/econ/confirmtransmogrifyapplicationdialog.res"
 // Costume Transmogrification
 // - https://wiki.teamfortress.com/wiki/Costume_Transmogrifier
 

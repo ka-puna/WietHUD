@@ -1,5 +1,5 @@
 #base "ConfirmPanelFixes_base.res"
-#base "../../../default_hudfiles/Resource/UI/econ/confirmapplycardupgradeapplicationdialog.res"
+#base "../../../base_hud/resource/ui/econ/confirmapplycardupgradeapplicationdialog.res"
 
 "Resource/UI/confirmapplycardupgradeapplicationdialog.res"
 {

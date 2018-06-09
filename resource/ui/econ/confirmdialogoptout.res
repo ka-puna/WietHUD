@@ -1,4 +1,4 @@
-#base "../../../default_hudfiles/Resource/UI/econ/ConfirmDialogOptOut.res"
+#base "../../../base_hud/resource/ui/econ/ConfirmDialogOptOut.res"
 
 "Resource/UI/ConfirmDialogOptOut.res"
 {

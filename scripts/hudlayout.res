@@ -2,7 +2,7 @@
 //#base "../alternatives/icon_only_killfeed_minmode.res"
 
 // Default HudLayout.res include
-#base "../default_hudfiles/hudlayout.res"
+#base "../base_hud/scripts/hudlayout.res"
 
 "Resource/HudLayout.res"
 {

@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/Winpanel.res"
+#base "../../base_hud/resource/ui/Winpanel.res"
 
 "Resource/UI/winpanel.res"
 {

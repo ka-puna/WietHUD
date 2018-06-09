@@ -1,4 +1,4 @@
-#base "../../../default_hudfiles/Resource/UI/econ/ConfirmCustomizeTextureDialog.res"
+#base "../../../base_hud/resource/ui/econ/ConfirmCustomizeTextureDialog.res"
 // Applying Decal
 
 "Resource/UI/econ/ConfirmCustomizeTextureDialog.res"

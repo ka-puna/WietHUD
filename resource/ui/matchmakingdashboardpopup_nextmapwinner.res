@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/matchmakingdashboardpopup_nextmapwinner.res"
+#base "../../base_hud/resource/ui/matchmakingdashboardpopup_nextmapwinner.res"
 // Winner of vote for next map at the end of round
 
 "Resource/UI/matchmakingdashboardpopup_nextmapwinner.res"

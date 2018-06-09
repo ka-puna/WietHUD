@@ -7,7 +7,7 @@
 
 // Main Menu
 // - Change the value of mat_antialias to see changes made without restarting TF2
-#base "../../default_hudfiles/resource/ui/MainMenuOverride.res"
+#base "../../base_hud/resource/ui/MainMenuOverride.res"
 
 "Resource/UI/MainMenuOverride.res"
 {

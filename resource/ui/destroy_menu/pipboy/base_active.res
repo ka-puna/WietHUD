@@ -1,4 +1,4 @@
-"Resource/UI/destroy_menu/PipBoy/base_active.res"
+"Resource/UI/destroy_menu/pipboy/base_active.res"
 {
 	"ItemNameLabel"
 	{

@@ -1,5 +1,5 @@
 #base "MatchMakingDashboardSidePanel.res"
-#base "../../default_hudfiles/Resource/UI/MatchMakingDashboardMvMCriteria.res"
+#base "../../base_hud/resource/ui/MatchMakingDashboardMvMCriteria.res"
 
 "Resource/UI/MatchMakingDashboardMvMCriteria.res"
 {

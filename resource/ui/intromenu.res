@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/intromenu.res"
+#base "../../base_hud/resource/ui/intromenu.res"
 // Map tutorial video
 
 "Resource/UI/IntroMenu.res"

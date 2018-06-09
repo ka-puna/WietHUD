@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/MatchMakingCasualCriteria.res"
+#base "../../base_hud/resource/ui/MatchMakingCasualCriteria.res"
 
 "Resource/UI/MatchMakingCasualCriteria.res"
 {

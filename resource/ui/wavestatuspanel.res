@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/wavestatuspanel.res"
+#base "../../base_hud/resource/ui/wavestatuspanel.res"
 // MvM wave status
 
 "Resource/UI/WaveStatusPanel.res"

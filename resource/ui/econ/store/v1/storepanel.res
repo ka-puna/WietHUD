@@ -1,4 +1,4 @@
-#base "../../../../../default_hudfiles/resource/ui/econ/store/v1/storepanel.res"
+#base "../../../../../base_hud/resource/ui/econ/store/v1/storepanel.res"
 // Store borders & background
 
 "Resource/UI/StorePanel.res"

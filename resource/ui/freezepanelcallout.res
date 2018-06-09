@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/freezepanelcallout.res"
+#base "../../base_hud/resource/ui/freezepanelcallout.res"
 // Player gib callout + arrows
 
 "Resource/UI/FreezePanelCallout.res"

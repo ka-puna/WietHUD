@@ -1,6 +1,6 @@
 #base "../HudMenuEngyBuild.res"
 
-"Resource/UI/build_menu/PipBoy/HudMenuEngyBuild.res"
+"Resource/UI/build_menu/pipboy/HudMenuEngyBuild.res"
 {
 	"active_item_1"
 	{

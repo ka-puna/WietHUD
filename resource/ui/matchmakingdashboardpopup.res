@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/MatchMakingDashboardPopup.res"
+#base "../../base_hud/resource/ui/MatchMakingDashboardPopup.res"
 
 "Resource/UI/MatchMakingDashboardPopup.res"
 {

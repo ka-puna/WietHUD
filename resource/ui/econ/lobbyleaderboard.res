@@ -1,4 +1,4 @@
-#base "../../../default_hudfiles/resource/ui/econ/LobbyLeaderboard.res"
+#base "../../../base_hud/resource/ui/econ/LobbyLeaderboard.res"
 // Ranked Leaderboard in CompStats
 
 "Resource/UI/econ/LobbyLeaderboard.res"

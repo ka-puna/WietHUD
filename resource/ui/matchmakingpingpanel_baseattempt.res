@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/MatchMakingPingPanel.res"
+#base "../../base_hud/resource/ui/MatchMakingPingPanel.res"
 #base "MatchMakingDashboardSidePanel.res"
 
 "Resource/UI/MatchMakingPingPanel.res"

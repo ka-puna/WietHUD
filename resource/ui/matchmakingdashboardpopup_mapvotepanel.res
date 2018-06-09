@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/matchmakingdashboardpopup_mapvotepanel.res"
+#base "../../base_hud/resource/ui/matchmakingdashboardpopup_mapvotepanel.res"
 // Single map display positioned in NextMapVoting
 
 "Resource/UI/matchmakingdashboardpopup_mapvotepanel.res"

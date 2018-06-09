@@ -1,7 +1,7 @@
 #base "../../../../../alternatives/storepanel_widescreen.res"
 
 // Store - Borders + Panels
-#base "../../../../../default_hudfiles/resource/ui/econ/store/v2/storepanel.res"
+#base "../../../../../base_hud/resource/ui/econ/store/v2/storepanel.res"
 
 "Resource/UI/StorePanel.res"
 {

@@ -1,5 +1,5 @@
 #base "../../options/reloadscheme_button.res"
-#base "../../default_hudfiles/resource/ui/classselection.res"
+#base "../../base_hud/resource/ui/classselection.res"
 // Class selection screen
 
 "Resource/UI/ClassSelection.res"

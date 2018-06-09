@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/UpgradeBuyPanel.res"
+#base "../../base_hud/resource/ui/UpgradeBuyPanel.res"
 
 "Resource/UI/UpgradeBuyPanel.res"
 {

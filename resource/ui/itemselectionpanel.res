@@ -3,7 +3,7 @@
 #base "../../alternatives/itemselection_buttons.res"
 
 // Select item to equip or use in crafting
-#base "../../default_hudfiles/resource/ui/itemselectionpanel.res"
+#base "../../base_hud/resource/ui/itemselectionpanel.res"
 
 "Resource/UI/ItemSelectionPanel.res"
 {

@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/HudMatchSummary.res"
+#base "../../base_hud/resource/ui/HudMatchSummary.res"
 // (Casual) Matchmaking end of round stats
 
 "Resource/UI/HudMatchSummary.res"

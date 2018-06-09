@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/scoreboard.res"
+#base "../../base_hud/resource/ui/scoreboard.res"
 // Scoreboard
 
 "Resource/UI/scoreboard.res"

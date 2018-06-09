@@ -1,5 +1,5 @@
 #base "ConfirmPanelFixes_base.res"
-#base "../../../default_hudfiles/Resource/UI/econ/ConfirmApplyStrangePartApplicationDialog.res"
+#base "../../../base_hud/resource/ui/econ/ConfirmApplyStrangePartApplicationDialog.res"
 // Apply Strange Part
 
 "Resource/UI/ConfirmApplyStrangePartApplicationDialog.res"

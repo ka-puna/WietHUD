@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/hudtournament.res"
+#base "../../base_hud/resource/ui/hudtournament.res"
 // Tournament overview
 
 "Resource/UI/HudTournament.res"

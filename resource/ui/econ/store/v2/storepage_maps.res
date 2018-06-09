@@ -1,5 +1,5 @@
 #base "storepage.res"
-#base "../../../../../default_hudfiles/resource/ui/econ/store/v2/storepage_maps.res"
+#base "../../../../../base_hud/resource/ui/econ/store/v2/storepage_maps.res"
 // Shop - Maps Tab
 
 "Resource/UI/StorePage_Maps.res"

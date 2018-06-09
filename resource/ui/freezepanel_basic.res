@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/freezepanel_basic.res"
+#base "../../base_hud/resource/ui/freezepanel_basic.res"
 // Freeze Panel on Death
 
 "Resource/UI/FreezePanel_Basic.res"

@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/mvmscoreboard.res"
+#base "../../base_hud/resource/ui/mvmscoreboard.res"
 
 "Resource/UI/MvMScoreboard.res"
 {

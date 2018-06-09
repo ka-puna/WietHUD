@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/ViewRecipesPanel.res"
+#base "../../base_hud/resource/ui/ViewRecipesPanel.res"
 
 "Resource/UI/ViewRecipesPanel.res"
 {

@@ -1,5 +1,5 @@
 #base "ConfirmPanelFixes_base.res"
-#base "../../../default_hudfiles/Resource/UI/econ/ConfirmApplyStrangeRestrictionApplicationDialog.res"
+#base "../../../base_hud/resource/ui/econ/ConfirmApplyStrangeRestrictionApplicationDialog.res"
 // Strange Filter
 
 "Resource/UI/ConfirmApplyStrangeRestrictionApplicationDialog.res"

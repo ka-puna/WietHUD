@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/wavecompletesummarypanel.res"
+#base "../../base_hud/resource/ui/wavecompletesummarypanel.res"
 // MvM wave won
 
 "Resource/UI/WaveCompletePanel.res"

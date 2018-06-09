@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/hudminigame_base.res"
+#base "../../base_hud/resource/ui/hudminigame_base.res"
 
 "Resource/UI/HudMiniGame_Base.res"
 {

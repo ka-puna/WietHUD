@@ -2,7 +2,7 @@
 #base "../options/mainmenu_hudlogo_buttonaction.res"
 
 // Default hudfile
-#base "../default_hudfiles/resource/GameMenu.res"
+#base "../base_hud/resource/GameMenu.res"
 
 "GameMenu" [$WIN32]
 {

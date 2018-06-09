@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/FlagCalloutPanel.res"
+#base "../../base_hud/resource/ui/FlagCalloutPanel.res"
 // Flag callout panel
 
 "Resource/UI/FlagCalloutPanel.res"

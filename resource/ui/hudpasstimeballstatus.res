@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/HudPasstimeBallStatus.res"
+#base "../../base_hud/resource/ui/HudPasstimeBallStatus.res"
 
 "Resource/UI/HudPasstimeBallStatus.res"
 {

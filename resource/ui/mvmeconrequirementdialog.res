@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/mvmeconrequirementdialog.res"
+#base "../../base_hud/resource/ui/mvmeconrequirementdialog.res"
 // Buy Voucher Popup
 
 "Resource/UI/UpgradeBoxDialog.res"

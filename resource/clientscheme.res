@@ -23,7 +23,7 @@
 #base "default_fonts_shadow.res"
 
 // Include default ClientScheme.res
-#base "../default_hudfiles/resource/clientscheme.res"
+#base "../base_hud/resource/clientscheme.res"
 
 // Customization of clientscheme.res
 Scheme

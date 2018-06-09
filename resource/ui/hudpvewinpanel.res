@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/resource/ui/hudpvewinpanel.res"
+#base "../../base_hud/resource/ui/hudpvewinpanel.res"
 // MvM wave lost
 
 "Resource/UI/hudpvewinpanel.res"

@@ -1,4 +1,4 @@
-#base "../../default_hudfiles/Resource/UI/tankstatuspanel.res"
+#base "../../base_hud/resource/ui/tankstatuspanel.res"
 // Tank/MvM Boss status
 
 "Resource/UI/TankStatusPanel.res"

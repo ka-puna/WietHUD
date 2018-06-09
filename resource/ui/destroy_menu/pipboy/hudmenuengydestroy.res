@@ -1,7 +1,7 @@
-#base "../../build_menu/PipBoy/HudMenuEngyBuild.res"
-// Destroy Menu PipBoy
+#base "../../build_menu/pipboy/HudMenuEngyBuild.res"
+// Destroy Menu pipboy
 
-"Resource/UI/destroy_menu/PipBoy/HudMenuEngyDestroy.res"
+"Resource/UI/destroy_menu/pipboy/HudMenuEngyDestroy.res"
 {
 	"TitleLabel"
 	{
