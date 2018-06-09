@@ -1,1 +1,0 @@
-#base "../disguise_menu/demoman_red.res"

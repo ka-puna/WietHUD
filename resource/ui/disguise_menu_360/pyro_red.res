@@ -1,1 +1,0 @@
-#base "../disguise_menu/pyro_red.res"
