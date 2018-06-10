@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$translucent"	1
+	"$alpha" 0.64
+	"$basetexture" "vgui/replay/thumbnails/cross_circle_blur"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+
+	"$color" "[0.0 0.0 0.0]"
+}

@@ -1,0 +1,76 @@
+"UnlitGeneric"
+{
+	"$translucent"	1
+	"$basetexture" "vgui/replay/thumbnails/cross_dot"
+	"$vertexcolor" 1
+	"$vertexalpha" 1 //added
+	"$no_fullbright" 1
+	"$ignorez" 1
+
+//b	"$angle" "0.0"
+//b	"$translate" "[0.0 0.0]"
+//b	"$center" "[0.5 0.5]"
+//b	"$speed" "0"
+//b	"$spin" "0"
+//b	"$stop" "0"
+//b	"$rate" "280"
+//b	"$threshhold" "0.41"
+
+	"$color" "[0.0 1.0 0.0]"
+
+	"Proxies"
+	{
+//b		//Rotates the crosshair when speed is at threshhold.
+//b		"PlayerSpeed"
+//b		{
+//b			"resultVar" "$speed"
+//b		}
+//b		"LinearRamp"
+//b		{
+//b			"rate" "$spin"
+//b			"initialValue" "0.0"
+//b			"resultVar" "$angle"
+//b		}
+//b		"LessOrEqual"
+//b		{
+//b			"lessEqualVar" "$stop"
+//b			"greaterVar" "$rate"
+//b			"srcVar1" "$speed"
+//b			"srcVar2" "$threshhold"
+//b			"resultVar" "$spin"
+//b		}
+//b		"TextureTransform"
+//b		{
+//b			"translateVar" "$translate"
+//b			"rotateVar" "$angle"
+//b			"centerVar" "$center"
+//b			"resultVar" "$basetexturetransform"
+//b		}
+
+//c		//The crosshair changes color.
+//c		"Sine"
+//c		{
+//c			"sinemin" "-1"
+//c			"sinemax" "1"
+//c			"sineperiod" "1.5"
+//c			"resultVar" "$color[0]"
+//c		}
+//c		"Sine"
+//c		{
+//c			"sinemin" "-1"
+//c			"sinemax" "1"
+//c			"sineperiod" "1.5"
+//c			"resultVar" "$color[2]"
+//c		}
+//c		"Sine"
+//c		{
+//c			"sinemin" "-1"
+//c			"sinemax" "1"
+//c			"sineperiod" "1.5"
+//c			"timeoffset" "0.75"
+//c			"resultVar" "$color[1]"
+//c		}
+
+	}
+
+}

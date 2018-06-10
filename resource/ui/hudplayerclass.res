@@ -1,6 +1,4 @@
-// Edit/Configure in WietHUD/crosshairs/hudcrosshairs.res
-// Uncomment to enable crosshairs
-//#base "../../crosshairs/hudcrosshairs.res"
+#base "../../base_custom/hudcrosshairs.res"
 
 "Resource/UI/HudPlayerClass.res"
 {
