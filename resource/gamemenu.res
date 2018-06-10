@@ -32,7 +32,7 @@
 	{
 		"label"			""
 		"command"		"callvote"
-		//"OnlyInGame"	"1"
+		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
 		"tooltip" "#MMenu_CallVote"
 	}
@@ -40,7 +40,7 @@
 	{
 		"label"			""
 		"command"		"OpenPlayerListDialog"
-		//"OnlyInGame"	"1"
+		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
 		"tooltip" "#MMenu_MutePlayers"
 	}
@@ -69,7 +69,7 @@
 	{
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
-		//"OnlyInGame"	"1"
+		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
