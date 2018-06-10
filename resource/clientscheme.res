@@ -16,8 +16,7 @@
 #base "../themes/colorscheme_default.res" // Default color fallback if no theme is uncommented
 
 // Fonts
-//#base "../alternatives/notohud_fonts.res"
-#base "CrosshairFonts.res"
+#base "default_fonts_replace.res"
 #base "default_fonts_blur.res"
 #base "default_fonts_outline.res"
 #base "default_fonts_shadow.res"
@@ -122,7 +121,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
+
 		// Scoreboard player status
 		ScoreboardSmallest
 		{
@@ -927,5 +926,15 @@ Scheme
 	{
 		"7" "resource/ocra.ttf" // Contracts Font
 		"8" "resource/blocks.ttf" // Block Font
+		"9"
+		{
+			"font" "resource/opensansbold.ttf"
+			"name" "Open Sans Bold"
+		}
+		"10"
+		{
+			"font" "resource/opensansregular.ttf"
+			"name" "Open Sans"
+		}
 	}
 }

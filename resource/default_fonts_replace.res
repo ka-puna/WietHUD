@@ -1,3 +1,5 @@
+//Modifies font used for default fonts.
+
 Scheme
 {
 	Fonts
@@ -37,7 +39,7 @@ Scheme
 				"name"		"Open Sans"
 			}
 		}
-		
+
 		"MenuClassBuckets"
 		{
 			"1"
@@ -56,7 +58,7 @@ Scheme
 				"tall"		"36"
 				"weight"	"500"
 			}
-		}	
+		}
 		"IntroMenuCaption"
 		{
 			"1"
@@ -65,7 +67,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"400"
 			}
-		}	
+		}
 		"ScoreboardVerySmall"
 		{
 			"1"
@@ -213,7 +215,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}	
+		}
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -223,7 +225,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}		
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -293,7 +295,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}	
+		}
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -497,7 +499,7 @@ Scheme
 				"antialias" "1"
 				"weight"	"500"
 			}
-		}		
+		}
 		"ItemFontAttribSmallest"
 		{
 			"1"
@@ -530,7 +532,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
 		"ItemFontAttribLarger"
 		{
 			"1"
@@ -563,20 +565,6 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}
-	}
-	
-	CustomFontFiles
-	{	
-		"8" // Open Sans Bold
-		{		
-			"font" "resource/OpenSansBold.ttf"
-			"name" "Open Sans Bold"
-		}
-		"9" // Open Sans Regular
-		{		
-			"font" "resource/OpenSansRegular.ttf"
-			"name" "Open Sans"
 		}
 	}
 }
