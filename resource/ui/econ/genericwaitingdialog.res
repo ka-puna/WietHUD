@@ -1,4 +1,4 @@
-#base "../../../base_hud/resource/ui/econ/GenericWaitingDialog.res"
+#base "../../../base_hud/resource/ui/econ/genericwaitingdialog.res"
 
 "Resource/UI/GenericWaitingDialog.res"
 {

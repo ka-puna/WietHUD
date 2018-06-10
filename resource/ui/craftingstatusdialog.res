@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/CraftingStatusDialog.res"
+#base "../../base_hud/resource/ui/craftingstatusdialog.res"
 // Crafting Status Dialog
 
 "Resource/UI/CraftingStatusDialog.res"

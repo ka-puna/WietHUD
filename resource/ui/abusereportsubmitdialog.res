@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/AbuseReportSubmitDialog.res"
+#base "../../base_hud/resource/ui/abusereportsubmitdialog.res"
 
 "Resource/UI/AbuseReportSubmitDialog.res"
 {

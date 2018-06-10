@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/ItemRenameInvalidDialog.res"
+#base "../../base_hud/resource/ui/itemrenameinvaliddialog.res"
 
 "Resource/UI/ItemRenameInvalidDialog.res"
 {

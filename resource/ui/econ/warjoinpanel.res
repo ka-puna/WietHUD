@@ -1,4 +1,4 @@
-#base "../../../base_hud/resource/ui/econ/WarJoinPanel.res"
+#base "../../../base_hud/resource/ui/econ/warjoinpanel.res"
 
 "Resource/UI/WarJoinPanel.res"
 {
@@ -8,7 +8,7 @@
 		{
 			"border"	"QuickplayBorder"
 			"bgcolor_override"	"BackpackPopupBGColor"
-			
+
 			"NoGContainer"
 			{
 				"border"	"QuickplayBorder"
@@ -21,7 +21,7 @@
 				{
 					"border"	"QuickplayBorder"
 					"bgcolor_override"	"Black"
-					
+
 					"ConfirmSelectionContainer"
 					{
 						"ConfirmButton"

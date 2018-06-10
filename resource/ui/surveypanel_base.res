@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/SurveyPanel_Base.res"
+#base "../../base_hud/resource/ui/surveypanel_base.res"
 // End of match rating panel (base)
 
 "Resource/UI/SurveyPanel_Base.res"

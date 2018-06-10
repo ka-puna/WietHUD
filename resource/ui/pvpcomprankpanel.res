@@ -1,5 +1,5 @@
-#base "PvPRankPanel.res"
-#base "../../base_hud/resource/ui/PvPRankPanel.res"
+#base "pvprankpanel.res"
+#base "../../base_hud/resource/ui/pvprankpanel.res"
 
 "Resource/UI/PvPRankPanel.res"
 {

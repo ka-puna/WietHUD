@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/MainMenuPlaylistEntry.res"
+#base "../../base_hud/resource/ui/mainmenuplaylistentry.res"
 
 "Resource/UI/MainMenuPlaylistEntry.res"
 {

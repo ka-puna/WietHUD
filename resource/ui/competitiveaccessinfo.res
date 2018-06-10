@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/CompetitiveAccessInfo.res"
+#base "../../base_hud/resource/ui/competitiveaccessinfo.res"
 
 "resource/ui/CompetitiveAccessInfo.res"
 {

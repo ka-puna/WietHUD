@@ -1,4 +1,4 @@
-#base "../../../base_hud/resource/ui/econ/ConfirmDialogAbandonNoPenalty.res"
+#base "../../../base_hud/resource/ui/econ/confirmdialogabandonnopenalty.res"
 
 "Resource/UI/ConfirmDialogAbandonNoPenalty.res"
 {

@@ -1,4 +1,4 @@
-#base "../../../base_hud/resource/ui/econ/CollectionCraftingDialog_base.res"
+#base "../../../base_hud/resource/ui/econ/collectioncraftingdialog_base.res"
 // Trade Up Panel
 
 "Resource/UI/econ/StrangeCountTransferDialog.res"

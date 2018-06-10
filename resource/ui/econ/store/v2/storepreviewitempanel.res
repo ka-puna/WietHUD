@@ -1,4 +1,4 @@
-#base "../../../../../base_hud/resource/ui/econ/store/v2/StorePreviewItemPanel.res"
+#base "../../../../../base_hud/resource/ui/econ/store/v2/storepreviewitempanel.res"
 
 "Resource/UI/StorePreviewItemPanel.res"
 {

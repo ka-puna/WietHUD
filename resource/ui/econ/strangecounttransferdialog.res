@@ -1,4 +1,4 @@
-#base "../../../base_hud/resource/ui/econ/StrangeCountTransferDialog.res"
+#base "../../../base_hud/resource/ui/econ/strangecounttransferdialog.res"
 // Strange Transfer Tool craft panel (combine 2 strange parts)
 
 "Resource/UI/StrangeCountTransferDialog.res"

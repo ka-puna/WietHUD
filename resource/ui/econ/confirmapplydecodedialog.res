@@ -1,5 +1,5 @@
-#base "ConfirmPanelFixes_base.res"
-#base "../../../base_hud/resource/ui/econ/ConfirmApplyDecodeDialog.res"
+#base "confirmpanelfixes_base.res"
+#base "../../../base_hud/resource/ui/econ/confirmapplydecodedialog.res"
 // Opening crates
 
 "Resource/UI/ConfirmApplyDecodeDialog.res"

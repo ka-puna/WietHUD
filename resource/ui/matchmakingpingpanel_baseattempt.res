@@ -1,5 +1,5 @@
-#base "../../base_hud/resource/ui/MatchMakingPingPanel.res"
-#base "MatchMakingDashboardSidePanel.res"
+#base "../../base_hud/resource/ui/matchmakingpingpanel.res"
+#base "matchmakingdashboardsidepanel.res"
 
 "Resource/UI/MatchMakingPingPanel.res"
 {

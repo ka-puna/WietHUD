@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/HudRoundCounter.res"
+#base "../../base_hud/resource/ui/hudroundcounter.res"
 
 "Resource/UI/HudRoundCounter.res"
 {

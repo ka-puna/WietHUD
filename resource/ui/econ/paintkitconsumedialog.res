@@ -1,4 +1,4 @@
-#base "../../../base_hud/resource/ui/econ/PaintkitConsumeDialog.res"
+#base "../../../base_hud/resource/ui/econ/paintkitconsumedialog.res"
 
 "Resource/UI/PaintkitConsumeDialog.res"
 {

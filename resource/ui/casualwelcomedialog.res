@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/CasualWelcomeDialog.res"
+#base "../../base_hud/resource/ui/casualwelcomedialog.res"
 
 "Resource/UI/CasualWelcomeDialog.res"
 {

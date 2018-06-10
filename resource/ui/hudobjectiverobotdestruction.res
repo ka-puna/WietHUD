@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/HudObjectiveRobotDestruction.res"
+#base "../../base_hud/resource/ui/hudobjectiverobotdestruction.res"
 // Robot Destruction
 
 "Resource/UI/HudObjectiveFlagPanel.res"

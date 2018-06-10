@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/MatchmakingCategoryPanel.res"
+#base "../../base_hud/resource/ui/matchmakingcategorypanel.res"
 // Casual matchmaking gamemode entry
 
 "Resource/UI/MatchmakingCategoryPanel.res"

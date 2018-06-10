@@ -1,5 +1,5 @@
 #base "ConfirmPanelFixes_base.res"
-#base "../../../base_hud/resource/ui/econ/ConfirmApplyGiftWrapDialog.res"
+#base "../../../base_hud/resource/ui/econ/confirmapplygiftwrapdialog.res"
 // Giftwrap Item
 
 "Resource/UI/ConfirmApplyGiftWrapDialog.res"

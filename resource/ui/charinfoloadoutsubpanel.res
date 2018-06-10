@@ -4,7 +4,7 @@
 // Comment out when not using widescreen resolutions
 #base "../../alternatives/classloadout_buttons.res"
 
-#base "../../base_hud/resource/ui/CharInfoLoadoutSubPanel.res"
+#base "../../base_hud/resource/ui/charinfoloadoutsubpanel.res"
 // Inventory Class selection | Backpack/Crafting/Catalog/Trading
 
 "Resource/UI/CharInfoLoadoutSubPanel.res" {

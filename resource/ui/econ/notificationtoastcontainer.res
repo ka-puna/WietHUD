@@ -1,4 +1,4 @@
-#base "../../../base_hud/resource/ui/econ/NotificationToastContainer.res"
+#base "../../../base_hud/resource/ui/econ/notificationtoastcontainer.res"
 
 "Resource/UI/NotificationToastContainer.res"
 {

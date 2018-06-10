@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/HudTournamentSetup.res"
+#base "../../base_hud/resource/ui/hudtournamentsetup.res"
 // Tournament ready up dropdown
 
 "Resource/UI/HudTournamentSetup.res"

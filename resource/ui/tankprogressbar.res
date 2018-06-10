@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/TankProgressBar.res"
+#base "../../base_hud/resource/ui/tankprogressbar.res"
 // Tank/MvM Boss bar
 
 "Resource/UI/TankProgressBar.res"

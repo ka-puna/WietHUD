@@ -1,4 +1,4 @@
-#base "../../../base_hud/resource/ui/econ/ItemDiscardPanel.res"
+#base "../../../base_hud/resource/ui/econ/itemdiscardpanel.res"
 // Full backpack item discard
 
 "Resource/UI/ItemDiscardPanel.res"

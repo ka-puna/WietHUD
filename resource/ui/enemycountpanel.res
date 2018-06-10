@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/EnemyCountPanel.res"
+#base "../../base_hud/resource/ui/enemycountpanel.res"
 
 "Resource/UI/EnemyCountPanel.res"
 {

@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/ItemRenameConfirmationDialog.res"
+#base "../../base_hud/resource/ui/itemrenameconfirmationdialog.res"
 
 "Resource/UI/ItemRenameConfirmationDialog.res"
 {

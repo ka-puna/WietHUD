@@ -1,5 +1,5 @@
 #base "ConfirmPanelFixes_base.res"
-#base "../../../base_hud/resource/ui/econ/ConfirmApplyPaintCanDialog.res"
+#base "../../../base_hud/resource/ui/econ/confirmapplypaintcandialog.res"
 // Apply Paint to item
 
 "Resource/UI/ConfirmApplyPaintCanDialog.res"

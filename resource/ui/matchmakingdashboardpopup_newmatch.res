@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/matchmakingdashboardpopup_NewMatch.res"
+#base "../../base_hud/resource/ui/matchmakingdashboardpopup_newmatch.res"
 // Rematch found
 
 "Resource/UI/matchmakingdashboardpopup_NewMatch.res"

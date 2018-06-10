@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/ServerNotConnectedToSteam.res"
+#base "../../base_hud/resource/ui/servernotconnectedtosteam.res"
 // Item Server Down Backpack Message
 
 "Resource/UI/ServerNoConnectedToSteam.res"

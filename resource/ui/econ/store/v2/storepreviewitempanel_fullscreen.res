@@ -1,4 +1,4 @@
-#base "../../../../../base_hud/resource/ui/econ/store/v2/StorePreviewItemPanel_fullscreen.res"
+#base "../../../../../base_hud/resource/ui/econ/store/v2/storepreviewitempanel_fullscreen.res"
 
 "Resource/UI/StorePreviewItemPanel_fullscreen.res"
 {

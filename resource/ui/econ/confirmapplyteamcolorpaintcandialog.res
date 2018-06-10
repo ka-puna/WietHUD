@@ -1,5 +1,5 @@
-#base "ConfirmPanelFixes_base.res"
-#base "../../../base_hud/resource/ui/econ/ConfirmApplyTeamColorPaintCanDialog.res"
+#base "confirmpanelfixes_base.res"
+#base "../../../base_hud/resource/ui/econ/confirmapplyteamcolorpaintcandialog.res"
 // Apply Team Colored Paint
 
 "Resource/UI/ConfirmApplyTeamColorPaintCanDialog.res"

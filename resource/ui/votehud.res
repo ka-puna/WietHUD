@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/VoteHud.res"
+#base "../../base_hud/resource/ui/votehud.res"
 
 "Resource/UI/VoteHud.res"
 {

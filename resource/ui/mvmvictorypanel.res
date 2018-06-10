@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/MvMVictoryPanel.res"
+#base "../../base_hud/resource/ui/mvmvictorypanel.res"
 // MvM Completion screen
 
 "Resource/UI/MvMVictoryPanel.res"

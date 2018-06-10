@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/HudMatchStatus.res"
+#base "../../base_hud/resource/ui/hudmatchstatus.res"
 
 "Resource/UI/HudMatchStatus.res"
 {

@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/StatSummary_embedded.res"
+#base "../../base_hud/resource/ui/statsummary_embedded.res"
 // Stats page in Backpack panel
 
 "Resource/UI/winpanel.res"

@@ -9,8 +9,12 @@ if [ -x "hlextract" ] ; then
   # grep Options: --recursive --perl-regexp --only-matching --no-filename
   echo -e "${GRN}Starting${NC} base file extraction."
   grep -rPoh '(?<=base_hud).*(?=")' resource scripts | while read -r file ; do
-    mkdir -p base_hud$(echo $file | awk -F/ 'sub(FS $NF,x)') && ./hlextract -p "../../tf2_misc_dir.vpk" -d "base_hud$(echo $file | awk -F/ 'sub(FS $NF,x)')" -e "root$file" -m -v -s
-    echo -e "${GRN}Processed${NC} $file."
+    mkdir -p base_hud$(echo $file | awk -F/ 'sub(FS $NF,x)') && ./hlextract -p "../../tf2_misc_dir.vpk" -d "base_hud$(echo $file | awk -F/ 'sub(FS $NF,x)')" -e "root$file" -m -v -s ;
+    if [ -f ./base_hud$file ] ; then
+      echo -e "${GRN}Processed${NC} $file."
+    else
+      echo -e "${RED}Failed${NC} to extract $file."
+    fi
   done
   # Clean out empty directories.
   find ./base_hud -type d -empty -delete

@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/HudArenaNotification.res"
+#base "../../base_hud/resource/ui/hudarenanotification.res"
 // Arena notifications
 
 "Resource/UI/HudArenaNotification.res"

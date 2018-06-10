@@ -1,4 +1,4 @@
-#base "../../base_hud/resource/ui/HudPasstimePassNotify.res"
+#base "../../base_hud/resource/ui/hudpasstimepassnotify.res"
 
 "Resource/UI/HudPasstimePassNotify.res"
 {
