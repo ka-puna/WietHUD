@@ -1,0 +1,23 @@
+"chapters"
+{
+	1	"title_team"
+	2	"title_war"
+	3	"title_red"
+	4	"title_blue"
+	5	"../vgui/competitive/12v12_background001.vmt"
+	6	"../vgui/competitive/comp_background_tier001a.vmt"
+	7	"../vgui/competitive/comp_background_tier002a.vmt"
+	8	"../vgui/competitive/comp_background_tier003a.vmt"
+	9	"../vgui/competitive/comp_background_tier004a.vmt"
+	10	"../vgui/competitive/comp_background_tier005a.vmt"
+	//11	"../vgui/competitive/comp_background_tier006a.vmt"
+	//12	"../vgui/ranked_background_widescreen.vmt"
+	//13	"../hud/eotl_leaderboard_background.vmt"
+}
+"BackgroundMaps"
+{
+	1	"background_2fort"
+	2	"background_gravelpit"
+	3	"background_upward"
+	4	"background_mvm"
+}
