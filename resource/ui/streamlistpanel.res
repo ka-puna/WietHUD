@@ -68,9 +68,9 @@
 		"depressedFgColor_override" "46 43 42 255"
 		
 		"pin_to_sibling"	"HeaderContainer"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"200 80 60 255"
 		"SubImage"
