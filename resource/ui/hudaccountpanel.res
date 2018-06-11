@@ -11,41 +11,41 @@
 		"delta_lifetime"		"3"
 		"delta_item_font"		"HudFontMediumOutline"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
 		"xpos"			"0"
-		"ypos"			"3"
-		"zpos"			"1"
-		"wide"			"13"
-		"tall"			"13"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"TanLight"
-		"antialias"		"1"
-	}
-	
-	"MetalIconShadow"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"1"
-		"ypos"			"4"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"12"
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
+		"icon"			"ico_metal"
+		"iconColor"		"TanLight"
+		"antialias"		"1"
+	}
+
+	"MetalIconShadow"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIcon"
+		"xpos"			"1"
+		"ypos"			"6"
+		"zpos"			"1"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"		"1"
 		"icon"			"ico_metal"
 		"iconColor"		"Black"
 		"antialias"		"1"
 	}
-	
+
 	"AccountValue"
 	{
 		"ControlName"		"CExLabel"
@@ -65,7 +65,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"font"			"HudFontMediumSmallBold"
-	}	
+	}
 	"AccountValueShadow"
 	{
 		"ControlName"		"CExLabel"

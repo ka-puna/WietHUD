@@ -1,5 +1,5 @@
 #base "HudItemChargeBar.res"
-// Scout Primary
+// Soda Popper & Baby Face's Blaster
 
 "Resource/UI/HudItemEffectMeter_sodapopper.res"
 {
@@ -9,5 +9,9 @@
 	HudItemEffectMeter
 	{
 		"ypos"		"r119"
+	}
+	"ItemEffectMeter"
+	{
+		"labelText"				"#TF_ENERGYDRINK"
 	}
 }

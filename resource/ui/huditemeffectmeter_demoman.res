@@ -1,15 +1,15 @@
 #base "HudItemCounter.res"
-// Eyelander Heads Collected
+// Eyelander & Air Strike Heads
 
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"r100"
-		"ypos_minmode"		"r100"
+		"xpos"			"c-246"
+		"ypos"			"r124"
+		"ypos_minmode"		"r116"
 	}
-	"ItemMeterDescription"
-	{
+	"ItemMeterDescription"	{
 		"fieldName"		"HeadsCollectedCounter"
 	}
 	"ItemEffectMeterCount"
@@ -26,17 +26,17 @@
 		"wide"			"140"
 		"tall"			"12"
 	}
-	"ItemEffectMeterLabel"
+	"ItemEffectMeter"
 	{
 		"visible"		"0"
 	}
 	"ItemEffectMeterIcon"
 	{
 		"wide"			"11"
-		"tall"			"11"	
+		"tall"			"11"
 		"xpos"			"76"
 		"ypos"			"1"
-		"image"			"../hud/leaderboard_dead"	
+		"image"			"../hud/leaderboard_dead"
 	}
 	"ItemEffectMeterIconShadow"
 	{

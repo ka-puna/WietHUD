@@ -28,7 +28,7 @@
 		"tall"			"18"
 		"font"			"HudFontMediumSmallBold"
 	}
-	"ItemEffectMeterLabel"
+	"ItemEffectMeter"
 	{
 		"visible"		"0"
 	}

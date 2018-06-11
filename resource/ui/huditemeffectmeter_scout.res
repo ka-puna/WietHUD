@@ -7,8 +7,12 @@
 	{
 		"fieldName"	"ScoutSecondary"
 	}
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"ypos"		"r114"
+	}
+	"ItemEffectMeter"
+	{
+		"labelText"				"#TF_ENERGYDRINK"
 	}
 }

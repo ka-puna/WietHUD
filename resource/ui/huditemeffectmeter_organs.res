@@ -24,7 +24,7 @@
 		"wide"			"74"
 		"tall"			"12"
 	}
-	"ItemEffectMeterLabel"
+	"ItemEffectMeter"
 	{
 		"visible"		"0"
 	}

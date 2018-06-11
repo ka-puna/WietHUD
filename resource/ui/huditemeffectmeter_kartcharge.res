@@ -15,29 +15,29 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 		"bgcolor_override"	"0 0 0 0"
-		
+
 		"verbose"	"1"
 	}
-	
+
 	"ItemEffectMeter"
-	{	
+	{
 		"xpos"			"c-75"
 		"ypos"			"r80"
 		"wide"			"150"
 		"tall"			"5"
 	}
-	
-	"ItemEffectMeterLabel"
+
+	"ItemEffectMeter"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"ItemEffectMeterLabel"
+		"fieldName"		"ItemEffectMeter"
 		"xpos"			"c-75"
 		"ypos"			"r81"
 		"wide"			"150"
 		"tall"			"7"
 		"labelText"		"#TF_KART"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"	"CExLabel"

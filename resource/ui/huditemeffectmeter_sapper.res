@@ -10,7 +10,8 @@
 	{
 		"ypos"		"r104" // "r119" above spycicle
 	}
-	"ItemEffectMeterLabel" {
+	"ItemEffectMeter"
+	{
 		"labelText"	"#TF_ENERGYDRINK"
 	}
 }

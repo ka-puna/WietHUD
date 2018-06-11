@@ -1,15 +1,15 @@
 #base "HudItemCounter.res"
-// Revenge Crits
+// Frontier Justice & Man Melter Crits
 
 "Resource/UI/HudItemEffectMeter_Engineer.res"
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"r102"
-		"ypos_minmode"		"r102"
+		"xpos"			"c-246"
+		"ypos"			"r124"
+		"ypos_minmode"		"r116"
 	}
-	"ItemMeterDescription"
-	{
+	"ItemMeterDescription"	{
 		"fieldName"		"RevengeCritsCounter"
 	}
 	"ItemEffectMeterCount"
@@ -24,17 +24,17 @@
 		"wide"			"74"
 		"tall"			"12"
 	}
-	"ItemEffectMeterLabel"
+	"ItemEffectMeter"
 	{
 		"visible"		"0"
 	}
 	"ItemEffectMeterIcon"
 	{
 		"wide"			"11"
-		"tall"			"11"	
+		"tall"			"11"
 		"xpos"			"76"
 		"ypos"			"1"
-		"image"			"../hud/ico_demolish"	
+		"image"			"../hud/ico_demolish"
 	}
 	"ItemEffectMeterIconShadow"
 	{

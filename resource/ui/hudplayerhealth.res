@@ -13,7 +13,7 @@
 		"zpos"			"-1"
 		"HealthDeathWarning"	"0.60"
 	}
-	
+
 	"PlayerStatusHealthImage"
 	{
 		"xpos_minmode"	"75"
@@ -28,7 +28,7 @@
 	{
 		"xpos_minmode"	"80"
 	}
-	
+
 	"PlayerStatusHealthValue"
 	{
 		"xpos"			"71"
@@ -36,7 +36,18 @@
 		"wide"			"60"
 		"font"			"HudFontSmallish"
 	}
-	
+	"PlayerStatusMaxHealthValue"
+	{
+		"xpos"			"118"
+		"xpos_minmode"	"114"
+		"ypos"			"30"
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"18"
+		"textAlignment"	"left"
+		"fgcolor"		"TanDark"
+	}
+
 	"PlayerStatus_WheelOfDoom"
 	{
 		"xpos"			"56"

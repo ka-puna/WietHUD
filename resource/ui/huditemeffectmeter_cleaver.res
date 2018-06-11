@@ -3,11 +3,19 @@
 
 "Resource/UI/HudItemEffectMeter_cleaver.res"
 {
-	"ItemMeterDescription" {
+	"ItemMeterDescription"	{
 		"fieldName"	"Cleaver"
 	}
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"ypos"		"r114"
+	}
+	"ItemEffectMeterLabel"
+	{
+		"labelText"	"#TF_Cleaver"
+	}
+	"ItemEffectMeterLabelShadow"
+	{
+		"labelText"	"#TF_Cleaver"
 	}
 }

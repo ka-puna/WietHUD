@@ -96,8 +96,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"6"
+				"name"		"Open Sans"
+				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
 				"dropshadow"	"1"

@@ -34,7 +34,7 @@
 		"proportionaltoparent"	"1"
 		"icon"			"obj_status_sapper"
 		"iconColor"		"255 255 255 255"
-		
+
 		"pin_to_sibling" 	"BuiltPanel"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
@@ -75,17 +75,17 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BuiltPanel"
 		"xpos"			"0"
-		"ypos"			"c-27"
+		"ypos"			"c72"
 		"wide"			"160"
 		"tall"			"27"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
-		
+
 		"Icon_Upgrade_1"
 		{
 			"visible"		"0"
 		}
-		
+
 		"Health"
 		{
 			"ControlName"	"CBuildingHealthBar"
@@ -188,7 +188,7 @@
 			"tall"			"f0"
 			"visible"		"0"
 			"proportionaltoparent"	"1"
-		
+
 			"pin_to_sibling" 	"BuiltBg"
 			"pin_corner_to_sibling" "PIN_TOPRIGHT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"

@@ -39,7 +39,7 @@
 		"zpos"			"3"
 		"wide"			"f0"
 		"proportionaltoparent"	"1"
-		"tall"			"6"
+		"tall"			"7"
 		"autoResize"		"1"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -50,11 +50,12 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"font"			"ChargeMeterFont"
-		"fgcolor_override"	"66 66 66 255"
+		"fgcolor_override"	"66 66 66 255"	//Valve sure loves hard-coding for NOH REESE'S.
+																				//Plus, the labels only work with ItemEffectMeterLabel.
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"font"			"Default"
@@ -71,5 +72,5 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
-	}					
+	}
 }

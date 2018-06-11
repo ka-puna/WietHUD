@@ -8,7 +8,7 @@
 		"ypos"				"0"
 		"zpos"				"3"
 		"wide"				"150"
-		"tall"				"5"
+		"tall"				"7"
 		"autoResize"			"1"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -18,7 +18,7 @@
 		"textAlignment"			"south"
 		"dulltext"			"0"
 		"brighttext"			"0"
-		"font"				"PlayerPanelPlayerName" //"TFFontSmall"
+		"font"				"ChargeMeterFont"
 		"fgcolor_override"		"33 33 33 255"
 	}
 
@@ -63,10 +63,8 @@
 			"tall"			"9"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/ico_stickybomb"
+			"image"			"/training/class_icon_demoman"
 			"scaleImage"		"1"
-			"teambg_2"		"../hud/ico_stickybomb_red"
-			"teambg_3"		"../hud/ico_stickybomb_blue"
 			"alpha"		"160"
 		}
 
@@ -135,10 +133,8 @@
 			"tall"			"9"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/ico_stickybomb_red_faded"
+			"image"			"/training/class_icon_demoman"
 			"scaleImage"		"1"
-			"teambg_2"		"../hud/ico_stickybomb_red_faded"
-			"teambg_3"		"../hud/ico_stickybomb_blue_faded"
 			"alpha"			"80"
 		}
 
@@ -156,7 +152,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"labelText"		"%activepipes%"
+			"labelText"		"0" //"%activepipes%"
 			"textAlignment"		"center"
 			"dulltext"		"1"
 			"brighttext"		"0"
@@ -176,7 +172,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"labelText"		"%activepipes%"
+			"labelText"		"0" //"%activepipes"
 			"textAlignment"		"center"
 			"dulltext"		"1"
 			"brighttext"		"0"
