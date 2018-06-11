@@ -3,6 +3,8 @@ RED='\033[0;33m'
 GRN='\033[0;32m'
 NC='\033[0m'
 #hlextract v2.4.6 http://nemesis.thewavelength.net https://github.com/RavuAlHemio/hllib
+echo "Moving base_hud to base_hud_old"
+mv base_hud base_hud_old
 echo "Checking for hlextract."
 if [ -x "hlextract" ] ; then
   # versions of (a-Z)grep have the required or same options! awk should be fine?
