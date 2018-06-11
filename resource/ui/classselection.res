@@ -1,59 +1,39 @@
-#base "../../options/reloadscheme_button.res"
 #base "../../base_hud/resource/ui/classselection.res"
-// Class selection screen
 
 "Resource/UI/ClassSelection.res"
 {
-	"ReloadSchemeButton" { "visible" "0" }
-
-	"Background" // Transparent BG replacement
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TransparentBlackBackground"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-10"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
-		"fillcolor"		"40 32 32 150"
-		"draw_corner_width" 	"0"
-		"draw_corner_height" 	"0"
-	}
-
 	"ResetButton" [$WIN32]
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ResetButton"
-		"xpos"			"c-250"
-		"ypos"			"c83"
-		"zpos"			"6"
-		"wide"			"60"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#TF_ClassMenu_Reset"
-		"textAlignment"		"center"
-		"Command"		"resetclass"
-		"font"			"HudFontSmallestBold"
-		"border_default"	"QuickplayBorder"
-		"border_armed"		"ComboBoxBorder"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
+	"CancelButton_"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton_"
+		"xpos"		"c-60"
+		"ypos"		"c-63"
+		"wide"		"120"
+		"tall"		"126" //Why is this hardcoded?
+		"zpos"		"10"
+		"visible"	"1"
+		"enabled"	"1"
+		"tabPosition"	"0"
+		"labelText"	"CANCEL"
+		"textAlignment"	"south"
+		"textinsety"	"-18"
+		"Command"		"vguicancel"
+		"font"			"HudFontSmallBold"
+		"armedBgcolor_override"	"0 0 0 0"
+		"defaultBgcolor_override"	"0 0 0 0"
+		"fgcolor_override" "200 80 60 255"
+	}
 	"CancelButton"
 	{
-		"tall"		"20"
-		"xpos"		"c-50"
-		"ypos"		"c-10"
-		"wide"		"100"
-		"zpos"		"10"
-		"border_default"	"QuickplayBorder"
-		"border_armed"		"ComboBoxBorder"
+		"ypos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	"cancelShortKey"
 	{
@@ -66,32 +46,75 @@
 
 	"EditLoadoutButton"
 	{
-		"wide"		"160"
-		"tall"		"20"
-		"xpos"		"20"
-		"ypos"		"r25"
+		"ControlName"	"CExButton"
+		"fieldName"		"EditLoadoutButton"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"130"
+		"tall"		"126" //Why is this hardcoded?
 		"zpos"		"10"
-		"labelText"	"&Edit Loadout"
-		"border_default"	"QuickplayBorder"
-		"border_armed"		"ComboBoxBorder"
+		"visible"	"1"
+		"enabled"	"1"
+		"tabPosition"	"0"
+		"labelText"	""
+		"textAlignment"	"center"
+		//"centerwrap"	"1"
+		//"border_default"	"QuickplayBorder"
+		//"border_armed"		"ComboBoxBorder"
+		"armedBgcolor_override"	"0 0 0 0"
+		"defaultBgcolor_override"	"0 0 0 0"
+		"Command"		"openloadout"
+		"font"			"HudFontSmallBold"
+		"fgcolor_override" "200 80 60 255"
+
+		"pin_to_sibling" 	"TeamBar"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
+	"TeamBar"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamBar"
+		"xpos"			"c-320"
+		"ypos"			"cs-0.5"
+		"wide"			"260"
+		"tall"	 		"126"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown_opaque"
+		"teambg_1"		"../hud/color_panel_brown_opaque"
+		"teambg_2"		"../hud/color_panel_red_opaque"
+		"teambg_3"		"../hud/color_panel_blu_opaque"
+		"src_corner_height"		"40"
+		"src_corner_width"		"40"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
+	}
 	"MenuBG"
 	{
-		"visible"	"0"
-		"enabled"	"0"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MenuBG"
+		"xpos"			"0"
+		"ypos"			"450"
+		"zpos"			"-1"
+		"wide"			"260"
+		"tall"			"900"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"22 22 16 127"
+		"pin_to_sibling" 	"TeamBar"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"ClassMenuSelect"
 	{
-		"xpos"			"c-250"
-		"ypos"			"c-137"
-		"wide"			"495"
-		"tall"			"18"
-		"zpos"			"10"
-		"font"			"HudFontSmallBoldShadow"
-		"textAlignment"		"center"
-		"fgcolor"		"TanLight"
+		"ypos" 		"9999"
+		"visible"	"0"
+		"enabled"	"0"
 	}
 
 	"ShadedBar"
@@ -102,14 +125,15 @@
 
 	"TFPlayerModel"
 	{
-		"wide"		"300"
+		"xpos"		"c-420"
+		"wide"		"400"
 		"tall"		"480"
 		"fov"		"25"
-		"allow_manip"	"1"
+		"allow_manip"	"0"
 		"zpos"		"1"
 
-		"model" {
-			"origin_x"	"200"
+		"model"
+		{
 			"force_pos"	"1"
 			"spotlight"	"1"
 
@@ -120,388 +144,539 @@
 
 	"localPlayerBG"
 	{
-		"wide"	"60"
-		"tall"	"84"
-		"xpos"	"c-250"
-		"ypos"	"c0"
-		"draw_corner_width"	"0"	// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
-		"border"	"QuickplayBorder"
-		"image"		"../hud/color_panel_browner"
-		"teambg_2"	"../hud/color_panel_red"
-		"teambg_3"	"../hud/color_panel_blu"
+		"ypos"		"9999"
+		"visible"	"0"
 	}
 
 	"localPlayerImage"
 	{
 		"wide"	"50"
 		"tall"	"100"
-		"xpos"	"-5"
-		"ypos"	"36"
-
-		"pin_to_sibling" 	"localPlayerBG"
-		"pin_corner_to_sibling" "2"
-		"pin_to_sibling_corner" "7"
+		"xpos"	"c-25"
+		"ypos"	"c-60"
+		"zpos"	"9"
 	}
 
 	// Other players in our team
-	"CountLabel" {
-		"xpos"	"c-187"
-		"ypos"	"c70"
-		"tall"	"15"
-		"wide"	"300"
-		"textAlignment"	"west"
-		"font"	"HudFontSmallBoldShadow"
+	"CountLabel"	{
+		"ypos"		"9999"
+		"visible"	"0"
 	}
 	"countImage0" {
-		"xpos"	"c-186"
-		"ypos"	"c10"
+		"ypos"		"9999"
+		"visible"	"0"
 	}
 	"countImage1" {
-		"xpos"	"c-162"
-		"ypos"	"c10"
+		"ypos"		"9999"
+		"visible"	"0"
 	}
 	"countImage2" {
-		"xpos"	"c-138"
-		"ypos"	"c10"
+		"ypos"		"9999"
+		"visible"	"0"
 	}
 	"countImage3" {
-		"xpos"	"c-114"
-		"ypos"	"c10"
+		"ypos"		"9999"
+		"visible"	"0"
 	}
 	"countImage4" {
-		"xpos"	"c-90"
-		"ypos"	"c10"
+		"ypos"		"9999"
+		"visible"	"0"
 	}
 	"countImage5" {
-		"xpos"	"c-66"
-		"ypos"	"c10"
+		"ypos"		"9999"
+		"visible"	"0"
 	}
 	"countImage6" {
-		"xpos"	"c-42"
-		"ypos"	"c10"
+		"ypos"		"9999"
+		"visible"	"0"
 	}
 	"countImage7" {
-		"xpos"	"c-18"
-		"ypos"	"c10"
+		"ypos"		"9999"
+		"visible"	"0"
 	}
 	"countImage8" {
-		"xpos"	"c6"
-		"ypos"	"c10"
+		"ypos"		"9999"
+		"visible"	"0"
 	}
 	"countImage9" {
-		"xpos"	"c30"
-		"ypos"	"c10"
+		"ypos"		"9999"
+		"visible"	"0"
 	}
 	"countImage10" {
-		"xpos"	"c54"
-		"ypos"	"c10"
-	}
-	"countImage11" {
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage11"
-		"xpos"		"c78"
-		"ypos"		"c10"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"
-	}
-	"countImage12" {
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage11"
-		"xpos"		"c102"
-		"ypos"		"c10"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"
+		"ypos"		"9999"
+		"visible"	"0"
 	}
 
-	"classSelectionBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"classSelectionBG"
-		"xpos"			"c-250"
-		"ypos"			"c-123"
-		"zpos"			"2"
-		"wide"			"500"
-		"tall"			"92"
-		"enabled"		"1"
-		"scaleImage"		"1"
-		"border"		"QuickplayBorder"
-		"bgcolor_override"	"MainmenuBGColor"
-	}
-
-	"ClassTipsPanel"
+	"ClassTipsPanel" //To-Do
 	{
 		"xpos"		"c80"
 		"ypos"		"c-16"
-		//"visible"	"0"
+		"visible"	"0"
+	}
+	"ClassHighlightPanel"
+	{
+		"visible"	"0"
+		"enabled"	"0"
 	}
 
 	"Offense"
 	{
-		"xpos"	"c-248"
-		"ypos"	"c-30"
-		"wide"	"165"
-		"textAlignment"		"center"
-		"fgcolor_override"	"TanLight"
+		"visible"	"0"
 	}
 
 	"Defense"
 	{
-		"xpos"	"c-88"
-		"ypos"	"c-30"
-		"wide"	"166"
-		"textAlignment"		"center"
-		"fgcolor_override"	"TanLight"
+		"visible"	"0"
 	}
-
 	"Support"
 	{
-		"xpos"	"c83"
-		"ypos"	"c-30"
-		"wide"	"165"
-		"textAlignment"		"center"
-		"fgcolor_override"	"TanLight"
+		"visible"	"0"
 	}
 
 	"random"
 	{
-		"xpos"	"c250" //"c115"
-		"ypos"	"c-134" //"c-18"
-		"wide"	"100"
-		"labelText"	"&Random"
-		"textAlignment"	"south"
+		"xpos"		"0"
+		"ypos"		"-126"
+		"zpos"		"3"
+		"wide"				"100"
+		"tall"				"14"
+		"labelText"		"&RANDOM"
+		"textAlignment"	"west"
+		"font"		"HudfontSmallest"
+		"fgcolor"			"TanLight"
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" "92 255 50 255"
 
-		"SubImage"
-		{
-			"wide"	"100"
-			"tall"	"200"
-			"ypos"	"-54"
-		}
+		"pin_to_sibling" 	"TeamBar"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+		"SubImage"	{"visible"	"0"}
 	}
 
 	"scout"
 	{
-		"xpos"		"c-245"
-		"ypos"		"c-115"
+		"xpos"		"0"
+		"ypos"		"0"
 		"zpos"		"3"
-		"tall"		"80"
-		"selectedFgColor_override" ""
+		"wide"				"100"
+		"tall"				"14"
+		"labelText"		"1 SCOUT"
+		"textAlignment"	"west"
+		"textinsetx"	"6"
+		"font"		"HudfontSmallest"
+		"fgcolor"			"TanLight"
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" "92 255 50 255"
 
-		"SubImage"
-		{
-			"ypos"	"-20"
-		}
+		"pin_to_sibling" 	"TeamBar"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+		"SubImage"	{"visible"	"0"}
 	}
 	"numScout"
 	{
-		"xpos"	"c-245"
-		"ypos"	"c-121"
+		"xpos"		"-6"
+		"ypos"		"0"
+		"wide"				"20"
+		"tall"				"14"
+		"textAlignment"	"east"
+		"font"		"HudFontSmallest"
+		"pin_to_sibling" 	"scout"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	"MvMUpgradeImageScout"
 	{
-		"xpos"	"c-245"
-		"ypos"	"c-105"
+		"xpos"			"0"
+		"ypos"			"-3"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+
+		"pin_to_sibling" 	"scout"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"soldier"
 	{
-		"xpos"		"c-190"
-		"ypos"		"c-115"
+		"xpos"		"0"
+		"ypos"		"-14"
 		"zpos"		"3"
-		"tall"		"80"
-		"selectedFgColor_override" ""
+		"wide"				"100"
+		"tall"				"14"
+		"labelText"		"2 SOLDIER"
+		"textAlignment"	"west"
+		"font"		"HudfontSmallest"
+		"fgcolor"			"TanLight"
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" "92 255 50 255"
 
-		"SubImage"
-		{
-			"ypos"	"-20"
-		}
+		"pin_to_sibling" 	"TeamBar"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+		"SubImage"	{"visible"	"0"}
 	}
 	"numSoldier"
 	{
-		"xpos"	"c-190"
-		"ypos"	"c-121"
+		"xpos"		"-6"
+		"ypos"		"0"
+		"wide"				"20"
+		"tall"				"14"
+		"textAlignment"	"east"
+		"font"		"HudFontSmallest"
+		"pin_to_sibling" 	"soldier"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	"MvMUpgradeImageSolider"
 	{
-		"xpos"	"c-190"
-		"ypos"	"c-105"
+		"xpos"			"0"
+		"ypos"			"-3"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+
+		"pin_to_sibling" 	"soldier"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"pyro"
 	{
-		"xpos"		"c-135"
-		"ypos"		"c-115"
+		"xpos"		"0"
+		"ypos"		"-28"
 		"zpos"		"3"
-		"tall"		"80"
-		"selectedFgColor_override" ""
+		"wide"				"100"
+		"tall"				"14"
+		"labelText"		"3 PYRO"
+		"textAlignment"	"west"
+		"font"		"HudfontSmallest"
+		"fgcolor"			"TanLight"
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" "92 255 50 255"
 
-		"SubImage"
-		{
-			"ypos"	"-20"
-		}
+		"pin_to_sibling" 	"TeamBar"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+		"SubImage"	{"visible"	"0"}
 	}
 	"numPyro"
 	{
-		"xpos"	"c-135"
-		"ypos"	"c-121"
+		"xpos"		"-6"
+		"ypos"		"0"
+		"wide"				"20"
+		"tall"				"14"
+		"textAlignment"	"east"
+		"font"		"HudFontSmallest"
+		"pin_to_sibling" 	"pyro"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	"MvMUpgradeImagePyro"
 	{
-		"xpos"	"c-135"
-		"ypos"	"c-105"
+			"xpos"			"0"
+			"ypos"			"-3"
+			"zpos"			"10"
+			"wide"			"10"
+			"tall"			"10"
+
+			"pin_to_sibling" 	"pyro"
+			"pin_corner_to_sibling" "PIN_TOPRIGHT"
+			"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"demoman"
 	{
-		"xpos"		"c-80"
-		"ypos"		"c-115"
+		"xpos"		"0"
+		"ypos"		"-42"
 		"zpos"		"3"
-		"tall"		"80"
-		"selectedFgColor_override" ""
+		"wide"				"100"
+		"tall"				"14"
+		"labelText"		"4 DEMOMAN"
+		"textAlignment"	"west"
+		"font"		"HudfontSmallest"
+		"fgcolor"			"TanLight"
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" "92 255 50 255"
 
-		"SubImage"
-		{
-			"ypos"	"-20"
-		}
+		"pin_to_sibling" 	"TeamBar"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+		"SubImage"	{"visible"	"0"}
 	}
 	"numDemoman"
 	{
-		"xpos"	"c-80"
-		"ypos"	"c-121"
+		"xpos"		"-6"
+		"ypos"		"0"
+		"wide"				"20"
+		"tall"				"14"
+		"textAlignment"	"east"
+		"font"		"HudFontSmallest"
+		"pin_to_sibling" 	"demoman"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	"MvMUpgradeImageDemoman"
 	{
-		"xpos"	"c-80"
-		"ypos"	"c-105"
+			"xpos"			"0"
+			"ypos"			"-3"
+			"zpos"			"10"
+			"wide"			"10"
+			"tall"			"10"
+
+			"pin_to_sibling" 	"demoman"
+			"pin_corner_to_sibling" "PIN_TOPRIGHT"
+			"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"heavyweapons"
 	{
-		"xpos"		"c-25"
-		"ypos"		"c-115"
+		"xpos"		"0"
+		"ypos"		"-56"
 		"zpos"		"3"
-		"tall"		"80"
-		"selectedFgColor_override" ""
+		"wide"				"100"
+		"tall"				"14"
+		"labelText"		"5 HEAVY"
+		"textAlignment"	"west"
+		"font"		"HudfontSmallest"
+		"fgcolor"			"TanLight"
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" "92 255 50 255"
 
-		"SubImage"
-		{
-			"ypos"	"-20"
-		}
+		"pin_to_sibling" 	"TeamBar"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+		"SubImage"	{"visible"	"0"}
 	}
 	"numHeavy"
 	{
-		"xpos"	"c-25"
-		"ypos"	"c-121"
+		"xpos"		"-6"
+		"ypos"		"0"
+		"wide"				"20"
+		"tall"				"14"
+		"textAlignment"	"east"
+		"font"		"HudFontSmallest"
+		"pin_to_sibling" 	"heavyweapons"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	"MvMUpgradeImageHeavy"
 	{
-		"xpos"	"c-25"
-		"ypos"	"c-105"
+		"xpos"			"0"
+		"ypos"			"-3"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+
+		"pin_to_sibling" 	"heavyweapons"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"engineer"
 	{
-		"xpos"		"c30"
-		"ypos"		"c-115"
+		"xpos"		"0"
+		"ypos"		"-70"
 		"zpos"		"3"
-		"tall"		"80"
-		"selectedFgColor_override" ""
+		"wide"				"100"
+		"tall"				"14"
+		"labelText"		"6 ENGINEER"
+		"textAlignment"	"west"
+		"font"		"HudfontSmallest"
+		"fgcolor"			"TanLight"
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" "92 255 50 255"
 
-		"SubImage"
-		{
-			"ypos"	"-20"
-		}
+		"pin_to_sibling" 	"TeamBar"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+		"SubImage"	{"visible"	"0"}
 	}
 	"numEngineer"
 	{
-		"xpos"	"c30"
-		"ypos"	"c-121"
+		"xpos"		"-6"
+		"ypos"		"0"
+		"wide"				"20"
+		"tall"				"14"
+		"textAlignment"	"east"
+		"font"		"HudFontSmallest"
+		"pin_to_sibling" 	"engineer"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	"MvMUpgradeImageEngineer"
 	{
-		"xpos"	"c30"
-		"ypos"	"c-105"
+		"xpos"			"0"
+		"ypos"			"-3"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+
+		"pin_to_sibling" 	"engineer"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"medic"
 	{
-		"xpos"		"c85"
-		"ypos"		"c-115"
+		"xpos"		"0"
+		"ypos"		"-84"
 		"zpos"		"3"
-		"tall"		"80"
-		"selectedFgColor_override" ""
+		"wide"				"100"
+		"tall"				"14"
+		"labelText"		"7 MEDIC"
+		"textAlignment"	"west"
+		"font"		"HudfontSmallest"
+		"fgcolor"			"TanLight"
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" "92 255 50 255"
 
-		"SubImage"
-		{
-			"ypos"	"-20"
-		}
+		"pin_to_sibling" 	"TeamBar"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+		"SubImage"	{"visible"	"0"}
 	}
 	"numMedic"
 	{
-		"xpos"	"c85"
-		"ypos"	"c-121"
+		"xpos"		"-6"
+		"ypos"		"0"
+		"wide"				"20"
+		"tall"				"14"
+		"textAlignment"	"east"
+		"font"		"HudFontSmallest"
+		"pin_to_sibling" 	"medic"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	"MvMUpgradeImageMedic"
 	{
-		"xpos"	"c85"
-		"ypos"	"c-105"
+		"xpos"			"0"
+		"ypos"			"-3"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+
+		"pin_to_sibling" 	"medic"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"sniper"
 	{
-		"xpos"		"c140"
-		"ypos"		"c-115"
+		"xpos"		"0"
+		"ypos"		"-98"
 		"zpos"		"3"
-		"tall"		"80"
-		"selectedFgColor_override" ""
+		"wide"				"100"
+		"tall"				"14"
+		"labelText"		"8 SNIPER"
+		"textAlignment"	"west"
+		"font"		"HudfontSmallest"
+		"fgcolor"			"TanLight"
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" "92 255 50 255"
 
-		"SubImage"
-		{
-			"ypos"	"-20"
-		}
+		"pin_to_sibling" 	"TeamBar"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+		"SubImage"	{"visible"	"0"}
 	}
 	"numSniper"
 	{
-		"xpos"	"c140"
-		"ypos"	"c-121"
+		"xpos"		"-6"
+		"ypos"		"0"
+		"wide"				"20"
+		"tall"				"14"
+		"textAlignment"	"east"
+		"font"		"HudFontSmallest"
+		"pin_to_sibling" 	"sniper"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	"MvMUpgradeImageSniper"
 	{
-		"xpos"	"c140"
-		"ypos"	"c-105"
+		"xpos"			"0"
+		"ypos"			"-3"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+
+		"pin_to_sibling" 	"sniper"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"spy"
 	{
-		"xpos"		"c195"
-		"ypos"		"c-115"
+		"xpos"		"0"
+		"ypos"		"-112"
 		"zpos"		"3"
-		"tall"		"80"
-		"selectedFgColor_override" ""
+		"wide"				"100"
+		"tall"				"14"
+		"labelText"		"9 SPY"
+		"textAlignment"	"west"
+		"font"		"HudfontSmallest"
+		"fgcolor"			"TanLight"
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" "92 255 50 255"
 
-		"SubImage"
-		{
-			"ypos"	"-20"
-		}
+		"pin_to_sibling" 	"TeamBar"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+		"SubImage"	{"visible"	"0"}
 	}
 	"numSpy"
 	{
-		"xpos"	"c195"
-		"ypos"	"c-121"
+		"xpos"		"-6"
+		"ypos"		"0"
+		"wide"				"20"
+		"tall"				"14"
+		"textAlignment"	"east"
+		"font"		"HudFontSmallest"
+		"pin_to_sibling" 	"spy"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 	"MvMUpgradeImageSpy"
 	{
-		"xpos"	"c195"
-		"ypos"	"c-105"
+		"xpos"			"0"
+		"ypos"			"-3"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+
+		"pin_to_sibling" 	"spy"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-}
+}}
