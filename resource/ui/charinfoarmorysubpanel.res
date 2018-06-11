@@ -167,7 +167,7 @@
 		"ControlName"	"CExButton"
 		"visible"	"1"
 		"xpos"		"r0"
-		"labelText"	"&a"
+		"labelText"	"&1"
 		"command"	"prevpage"
 	}
 	"nextShortKey"
@@ -175,7 +175,7 @@
 		"ControlName"	"CExButton"
 		"visible"	"1"
 		"xpos"		"r0"
-		"labelText"	"&d"
+		"labelText"	"&2"
 		"command"	"nextpage"
 	}
 }

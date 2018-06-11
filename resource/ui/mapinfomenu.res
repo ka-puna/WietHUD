@@ -116,7 +116,7 @@
 		"ControlName"	"CExButton"
 		"visible"	"1"
 		"xpos"		"r0"
-		"labelText"	"&e"
+		"labelText"	"&2"
 		"command"	"continue"
 	}
 
@@ -205,7 +205,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"

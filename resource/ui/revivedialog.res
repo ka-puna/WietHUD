@@ -97,7 +97,7 @@
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"tabPosition"		"0"
-			"labelText"		"Hid&e"
+			"labelText"		"Hid(&e)"
 			"font"			"ReplayBrowserSmallest"
 			"textAlignment"		"center"
 			"textinsetx"		"20"
