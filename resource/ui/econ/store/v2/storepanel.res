@@ -80,7 +80,7 @@
 		"zpos"		"250"
 		"wide"		"100"
 		"tall"		"25"
-		//"labelText"	"#TF_BackToMainMenu" //"<< Back (&Q)"
+		//"labelText"	"#TF_BackToMainMenu" //"<< Back (&1)"
 		"default"	"1"
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"ComboBoxBorder"
@@ -90,7 +90,7 @@
 		"ControlName"	"CExButton"
 		"visible"	"1"
 		"xpos"		"r0"
-		"labelText"	"&q"
+		"labelText"	"&1"
 		"command"	"close"
 	}
 

@@ -43,7 +43,7 @@
 		"ControlName"	"CExButton"
 		"visible"	"1"
 		"xpos"		"r0"
-		"labelText"	"&q"
+		"labelText"	"&1"
 		"command"	"close"
 	}
 

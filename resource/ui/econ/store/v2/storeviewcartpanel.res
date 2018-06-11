@@ -131,7 +131,7 @@
 		"tall"		"25"
 		"auto_wide_tocontents"	"1"
 		"textinsetx"	"40"
-		//"labelText"	"<< Continue Shopping (&Q)"
+		//"labelText"	"<< Continue Shopping (&1)"
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"ComboBoxBorder"
 	}
@@ -140,7 +140,7 @@
 		"ControlName"	"CExButton"
 		"visible"	"1"
 		"xpos"		"r0"
-		"labelText"	"&q"
+		"labelText"	"&1"
 		"command"	"close"
 	}
 	
