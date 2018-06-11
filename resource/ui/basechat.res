@@ -1,7 +1,7 @@
 "Resource/UI/BaseChat.res"
 {
 	// Mirror ypos position in scripts\hudanimations_chat.txt CompetitiveGame_RestoreChatWindow event
-	// Event CompetitiveGame_LowerChatWindow ypos in scripts\hudanimations_chat.txt is "r-tall"
+	// Event CompetitiveGame_LowerChatWindow ypos in scripts\hudanimations_chatwindow.txt is "r-tall"
 	"HudChat"
 	{
 		"ControlName"		"EditablePanel"
