@@ -1,4 +1,3 @@
-#base "../../options/reloadscheme_button.res"
 #base "../../alternatives/itemselection_widescreen.res"
 #base "../../alternatives/itemselection_buttons.res"
 

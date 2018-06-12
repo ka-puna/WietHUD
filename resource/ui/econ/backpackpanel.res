@@ -1,4 +1,3 @@
-//#base "../../../options/reloadscheme_button.res"
 #base "../../../alternatives/backpack_widescreen.res"
 //#base "../../../alternatives/backpack_1610.res"
 #base "../../../alternatives/backpack_54.res"

@@ -1,5 +1,3 @@
-//#base "../../options/reloadscheme_button.res"
-
 // Class selection buttons at the bottom of backpack
 // Comment out when not using widescreen resolutions
 #base "../../alternatives/classloadout_buttons.res"

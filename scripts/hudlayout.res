@@ -336,7 +336,7 @@
 
 	"HudMenuTauntSelection"
 	{
-		"xpos"			"c200" //"c-235" (for left)
+		"xpos"			"c-235"
 		"ypos"			"c-75"
 		"wide"			"100"
 		"tall"			"150"

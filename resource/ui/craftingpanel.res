@@ -1,4 +1,3 @@
-//#base "../../options/reloadscheme_button.res"
 #base "../../base_hud/resource/ui/craftingpanel.res"
 // Item Craft menu
 

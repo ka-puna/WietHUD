@@ -1,4 +1,3 @@
-//#base "../../../options/reloadscheme_button.res"
 #base "../../../alternatives/itempickup_widescreen.res"
 #base "../../../base_hud/resource/ui/econ/itempickuppanel.res"
 // New Item crafted/found/traded/bought

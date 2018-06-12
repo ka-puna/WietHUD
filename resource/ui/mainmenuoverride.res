@@ -1,7 +1,36 @@
-// The main menu is so fucking sticky and stinky so don't #base. Fucking Valve.
-
 "Resource/UI/MainMenuOverride.res"
 {
+	"ReloadSchemeButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ReloadSchemeButton"
+		"xpos"			"-56"
+		"ypos"			"0"
+		"zpos"			"250"
+		"wide"			"28"
+		"tall"			"28"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"RS"
+		"font"			"HudFontSmallishBold"
+		"textAlignment"		"center"
+		"textinsetx"		"10"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"Command"		"engine hud_reloadscheme"
+		"defaultFgColor_override" "217 200 158 255"
+		"armedFgColor_override" "160 80 70 255"
+		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"pin_to_sibling" 	"CustomizeLabel"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+	}
+
 	MainMenuOverride
 	{
 		"fieldName"		"MainMenuOverride"

@@ -1,4 +1,3 @@
-//#base "../../../options/reloadscheme_button.res"
 // Weapon/Paint Kit Inspection Panel
 // Embedded in ConfirmApplyPaintKitDialog for War Paints
 

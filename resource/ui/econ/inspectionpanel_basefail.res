@@ -1,4 +1,3 @@
-#base "../../../options/reloadscheme_button.res"
 #base "../../../resource/ui/econ/InspectionPanel.res"
 // Weapon Inspection Panel
 // Embedded in ConfirmApplyPaintKitDialog for War Paints

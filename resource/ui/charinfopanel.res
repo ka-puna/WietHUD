@@ -1,4 +1,3 @@
-//#base "../../options/reloadscheme_button.res"
 // Tabs & Back button for backpack/econ related panels
 
 "Resource/UI/CharInfoPanel.res"
