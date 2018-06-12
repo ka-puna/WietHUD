@@ -5,9 +5,6 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"c-246"
-		"ypos"			"r124"
-		"ypos_minmode"		"r116"
 	}
 	"ItemMeterDescription"	{
 		"fieldName"		"RevengeCritsCounter"
