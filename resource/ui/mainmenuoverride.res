@@ -223,7 +223,7 @@
 		"fieldName"		"TFLogoButton"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"100"
+		"zpos"			"10"
 		"wide"			"240"
 		"tall"			"100"
 		"visible"		"1"

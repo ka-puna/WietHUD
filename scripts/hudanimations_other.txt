@@ -107,11 +107,6 @@ event SuddenDeathLabelPulseRed
 // Animate TeamMenu.res full arrow
 event TeamsFullArrowAnimate
 {
-	Animate TeamsFullArrow	Position	"c91 c-42"		Linear	0	0
-	Animate TeamsFullArrow	Position	"c95 c-42"		Linear	0	0.5
-	Animate TeamsFullArrow	Position	"c91 c-42"		Linear	0.5	0.5
-
-	RunEvent TeamsFullArrowAnimateLoop	1
 }
 
 // Checkbox animations casual matchmaking (MatchmakingCategoryPanel.res)
