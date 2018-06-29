@@ -199,7 +199,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"-200"
-		"wide"			"o1.6"
+		"wide"			"f0" //"o1.6"
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
