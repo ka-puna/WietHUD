@@ -1,7 +1,4 @@
-// Default Fonts
-// - Copied from clientscheme
-// - Original name with 'Blur' appended
-// - Only change is blur applied
+// Default Fonts with 'Blur' appended
 
 Scheme
 {
@@ -11,7 +8,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Open Sans"
 				"tall"		"28"
 				"weight"	"500"
 				"additive"	"0"
@@ -36,7 +33,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Open Sans"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -61,7 +58,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Open Sans"
 				"tall"		"24"
 				"tall_lodef"	"28"
 				"weight"	"500"
@@ -100,7 +97,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Open Sans Bold"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -112,7 +109,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Open Sans"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -126,7 +123,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Open Sans"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -153,7 +150,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Open Sans"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -317,7 +314,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Open Sans Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -329,7 +326,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Open Sans Bold"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -341,7 +338,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Open Sans"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -353,7 +350,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Open Sans"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -365,7 +362,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Open Sans
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
