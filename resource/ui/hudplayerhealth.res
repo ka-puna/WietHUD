@@ -11,7 +11,7 @@
 		"xpos_minmode"		"c-300"
 		"ypos_minmode"		"c40"
 		"zpos"			"-1"
-		"HealthDeathWarning"	"0.60"
+		"HealthDeathWarning"	"0.49"
 	}
 
 	"PlayerStatusHealthImage"

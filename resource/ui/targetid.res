@@ -167,8 +167,8 @@
 		"proportionaltoparent"	"1"
 		"auto_wide_tocontents"	"1"
 		"TFFont"		"HudFontMediumBold"
-		"HealthBonusPosAdj"	"0"
-		"HealthDeathWarning"	"0.40"
+		"HealthBonusPosAdj"	"54"
+		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
 	"AvatarImage"

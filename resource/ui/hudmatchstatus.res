@@ -233,7 +233,7 @@
 			}
 			"HealthIcon"
 			{
-				"HealthDeathWarning"	"0.4"
+				"HealthDeathWarning"	"0.49"
 			}
 			"chargeamount"
 			{

@@ -66,7 +66,7 @@
 			"wide"			"74"
 			"tall"			"25"
 			"HealthBonusPosAdj"	"0"
-			"HealthDeathWarning"	"0.40"
+			"HealthDeathWarning"	"0.49"
 			"auto_wide_tocontents"	"1"
 
 			"pin_to_sibling" 	"AvatarImage"

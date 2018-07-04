@@ -138,7 +138,7 @@
 				"tall"			"20"
 				"TextColor"		"TanLight"
 				"HealthBonusPosAdj"	"0"
-				"HealthDeathWarning"	"0.35"
+				"HealthDeathWarning"	"0.49"
 
 				"pin_to_sibling" 	"classimagebg"
 				"pin_corner_to_sibling" "PIN_BOTTOMLEFT"

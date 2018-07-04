@@ -163,7 +163,7 @@
 			"enabled"			"1"
 			"proportionaltoparent"		"1"
 			"HealthBonusPosAdj"		"0"
-			"HealthDeathWarning"		"0.50"
+			"HealthDeathWarning"		"0.49"
 			"TFFont"			"HudFontSmallest"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"			"HudOffWhite"

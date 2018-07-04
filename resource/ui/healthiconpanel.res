@@ -27,7 +27,7 @@
 		"proportionaltoparent"	"1"
 		"TFFont"		"HudFontMediumSmallBold"
 		"HealthBonusPosAdj"	"0"
-		"HealthDeathWarning"	"0.30"
+		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 
 		// Smaller overhead health font
@@ -53,8 +53,8 @@
 			"wide"			"24"
 			"tall"			"24"
 			"scaleImage"		"1"
-			"image"			"../vgui/replay/thumbnails/health_cluster"
-			"alpha"			"100"
+			"image"			"../hud/health_over_bg"
+			"alpha"			"0"
 
 			"pin_to_sibling" 	"PlayerStatusHealthValue"
 			"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"

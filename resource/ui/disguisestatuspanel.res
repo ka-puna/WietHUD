@@ -121,7 +121,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"HealthBonusPosAdj"	"0"
-		"HealthDeathWarning"	"0.40"
+		"HealthDeathWarning"	"0.49"
 		"auto_wide_tocontents"	"1"
 		"TFFont"			"HudFontMediumBold"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
