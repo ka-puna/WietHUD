@@ -1,5 +1,3 @@
-#base "../../base_hud/resource/ui/mainmenuplaylistentry.res"
-
 "Resource/UI/MainMenuPlaylistEntry.res"
 {
 	"ModeButton"
@@ -23,8 +21,8 @@
 			"tall"		"26"
 		}
 	}
-	
-	"LockImage"
+
+	"DisabledIcon"
 	{
 		"proportionaltoparent"	"1"
 		

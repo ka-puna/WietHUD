@@ -6,7 +6,7 @@
 		"fieldName"		"ReloadSchemeButton"
 		"xpos"			"-56"
 		"ypos"			"0"
-		"zpos"			"250"
+		"zpos"			"98"
 		"wide"			"28"
 		"tall"			"28"
 		"visible"		"1"
@@ -309,7 +309,10 @@
 //	"CycleRankTypeButton"
 //	"RankTooltipPanel"
 //	"RankPanel"
-//	"NoGCMessage"
+	"NoGCMessage"
+	{
+		"xpos"			"c-280"
+	}
 //	"NoGCImage"
 //	"RankBorder"
 
