@@ -80,13 +80,13 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"-4"	[$WIN32]
-		"ypos"			"r38"	[$WIN32]
+		"xpos"			"9999" //"-4"	[$WIN32]
+		"ypos"			"9999" //"r38"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"		"1"
 		"image"			"../hud/character_red_bg_clipped"
 		"teambg_2"		"../hud/character_red_bg_clipped"
