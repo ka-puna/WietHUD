@@ -1,3 +1,5 @@
+#base "../../base_hud/resource/ui/mainmenuplaylistentry.res"
+
 "Resource/UI/MainMenuPlaylistEntry.res"
 {
 	"ModeButton"
@@ -8,12 +10,12 @@
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"ComboBoxBorder"
 	}
-	
+
 	"TooltipPanel"
 	{
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"Black"
-		
+
 		"TipLabel"
 		{
 			"xpos"		"3"
@@ -25,7 +27,7 @@
 	"DisabledIcon"
 	{
 		"proportionaltoparent"	"1"
-		
+
 		"SubImage"
 		{
 			"xpos"		"r140"
