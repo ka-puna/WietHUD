@@ -362,7 +362,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans
+				"name"		"Open Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
