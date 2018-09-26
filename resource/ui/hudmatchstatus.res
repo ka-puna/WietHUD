@@ -129,11 +129,11 @@
 
 			if_match
 			{
-				"ypos"		"12"
-				"ypos_minmode"	"12"
+				"ypos"		"10"
+				"ypos_minmode"	"10"
 				"wide"		"80"
-				"tall"		"19"
-				"textAlignment"	"south"
+				"tall"		"21"
+				"textAlignment"	"center"
 				"bgcolor_override"	"TransparentBlack"
 
 				"font"		"HudFontMediumSmall"
