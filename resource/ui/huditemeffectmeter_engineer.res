@@ -12,14 +12,10 @@
 	"ItemEffectMeterCount"
 	{
 		"font"			"HudFontSmallBold"
-		"wide"			"74"
-		"tall"			"12"
 	}
 	"ItemEffectMeterCountShadow"
 	{
 		"font"			"HudFontSmallBold"
-		"wide"			"74"
-		"tall"			"12"
 	}
 	"ItemEffectMeter"
 	{
@@ -27,10 +23,6 @@
 	}
 	"ItemEffectMeterIcon"
 	{
-		"wide"			"11"
-		"tall"			"11"
-		"xpos"			"76"
-		"ypos"			"1"
 		"image"			"../hud/ico_demolish"
 	}
 	"ItemEffectMeterIconShadow"

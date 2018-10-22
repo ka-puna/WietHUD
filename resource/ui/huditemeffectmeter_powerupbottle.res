@@ -16,16 +16,20 @@
 	}
 	"ItemEffectMeterCount"
 	{
+		"xpos"			"0"
 		"ypos"			"2"
 		"wide"			"73"
 		"tall"			"18"
+		"textAlignment"	"east"
 		"font"			"HudFontMediumSmallBold"
 	}
 	"ItemEffectMeterCountShadow"
 	{
-		"ypos"			"3"
+		"xpos"			"1"
+		"ypos"			"1"
 		"wide"			"73"
 		"tall"			"18"
+		"textAlignment"	"east"
 		"font"			"HudFontMediumSmallBold"
 	}
 	"ItemEffectMeter"
@@ -35,6 +39,7 @@
 	"ItemEffectMeterIcon"
 	{
 		"fieldName"		"ItemEffectIcon"
+		"xpos"			"71"
 		"wide"			"20"
 		"tall"			"20"
 		"xpos"			"73"

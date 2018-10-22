@@ -1,5 +1,5 @@
 #base "HudItemCounter.res"
-// Eyelander & Air Strike Heads
+//  Eyelander, Bazaar Bargain, & Air Strike Heads
 
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
@@ -12,16 +12,10 @@
 	"ItemEffectMeterCount"
 	{
 		"font"			"HudFontSmallBold"
-		"textalignment"		"center"
-		"wide"			"140"
-		"tall"			"12"
 	}
 	"ItemEffectMeterCountShadow"
 	{
 		"font"			"HudFontSmallBold"
-		"textalignment"		"center"
-		"wide"			"140"
-		"tall"			"12"
 	}
 	"ItemEffectMeter"
 	{
@@ -29,10 +23,6 @@
 	}
 	"ItemEffectMeterIcon"
 	{
-		"wide"			"11"
-		"tall"			"11"
-		"xpos"			"76"
-		"ypos"			"1"
 		"image"			"../hud/leaderboard_dead"
 	}
 	"ItemEffectMeterIconShadow"
