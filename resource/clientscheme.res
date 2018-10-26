@@ -33,7 +33,8 @@ Scheme
 		"MainMenuBGColor"	"36 34 36 180"
 		"BackpackBGColor"	"52 50 52 255"
 
-		"DamageNumbersColor"	""
+		"HealNumbersColor" "255 255 35 255"
+		"StaticDamageNumbersColor"	"255 65 255 255"
 
 		"AmmoLowColor"		"255 165 0 255"
 		"LowAmmoShadowColor"	"180 0 0 225"
@@ -85,9 +86,6 @@ Scheme
 		AmmoNoClipLowColor		"AmmoLowColor"
 		AmmoClipLowColor		"AmmoLowColor"
 		AmmoReserveLowColor		"AmmoLowColor"
-
-		//DamageTextColor			"DamageNumbersColor" // Use RGB defined values on line 36
-		DamageTextColor			"ItemRarityMythical" //"QualityColorCollectors"
 	}
 
 	Fonts
