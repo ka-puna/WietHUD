@@ -25,12 +25,4 @@
 		"pin_corner_to_sibling"        "PIN_CENTER_TOP"
 		"pin_to_sibling_corner"        "PIN_CENTER_BOTTOM"
 	}
-	"doneShortKey"
-	{
-		"ControlName"	"CExButton"
-		"visible"	"1"
-		"xpos"		"r0"
-		"labelText"	"&2"
-		"command"	"done"
-	}
 }
